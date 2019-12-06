@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Platform195/static/css/main.91c469d7.chunk.css",
+    "main.js": "/Platform195/static/js/main.0cbfc244.chunk.js",
+    "main.js.map": "/Platform195/static/js/main.0cbfc244.chunk.js.map",
+    "runtime-main.js": "/Platform195/static/js/runtime-main.6468824a.js",
+    "runtime-main.js.map": "/Platform195/static/js/runtime-main.6468824a.js.map",
+    "static/js/2.a58263c9.chunk.js": "/Platform195/static/js/2.a58263c9.chunk.js",
+    "static/js/2.a58263c9.chunk.js.map": "/Platform195/static/js/2.a58263c9.chunk.js.map",
+    "index.html": "/Platform195/index.html",
+    "precache-manifest.4de2e6c01a8532287a93b575442ddef7.js": "/Platform195/precache-manifest.4de2e6c01a8532287a93b575442ddef7.js",
+    "service-worker.js": "/Platform195/service-worker.js",
+    "static/css/main.91c469d7.chunk.css.map": "/Platform195/static/css/main.91c469d7.chunk.css.map",
+    "static/media/PLATFORM_195_reversed.jpg": "/Platform195/static/media/PLATFORM_195_reversed.0e1a20f4.jpg",
+    "static/media/txt1.png": "/Platform195/static/media/txt1.dcf3a68e.png",
+    "static/media/txt2.png": "/Platform195/static/media/txt2.daf3ef79.png",
+    "static/media/txt3.png": "/Platform195/static/media/txt3.b1748a47.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6468824a.js",
+    "static/js/2.a58263c9.chunk.js",
+    "static/css/main.91c469d7.chunk.css",
+    "static/js/main.0cbfc244.chunk.js"
+  ]
+}

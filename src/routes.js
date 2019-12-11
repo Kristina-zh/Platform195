@@ -1,6 +1,6 @@
 export default {
   HOME: '/',
-  ABOUT_US: '/about-us',
-  OUR_WORK: '/our-work',
+  OUR_TEAM: '/ourteam',
+  OUR_WORK: '/ourwork',
   CONTACT: '/contact',
 };

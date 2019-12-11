@@ -1,5 +1,5 @@
 {
-  "name": "mod-1",
+  "name": "Platform195",
   "version": "0.1.0",
   "homepage": "https://kristina-zh.github.io/Platform195",
   "private": true,
@@ -17,8 +17,10 @@
     "react-scripts": "3.2.0",
     "react-slick": "^0.25.2",
     "react-transition-group": "^4.3.0",
+    "redax": "0.0.0",
     "shortid": "^2.2.15",
-    "uuid": "^3.3.3"
+    "uuid": "^3.3.3",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "react-scripts start",

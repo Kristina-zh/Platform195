@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 // import Loadable from 'react-loadable';
 import HomePage from '../pages/HomePage/HomePage';
-import AboutUsPage from '../pages/AboutUsPage/AboutUsPage';
+import OurTeamPage from '../pages/OurTeamPage/OurTeamPage';
 import OurWorkPage from '../pages/OurWorkPage/OurWorkPage';
 import ContactPage from '../pages/ContactPage/ContactPage';
 import Navigation from './Navigation/Navigation';
@@ -24,7 +24,7 @@ const App = () => {
       <Navigation />
       <Switch>
         <Route path={routes.HOME} exact component={HomePage} />
-        <Route path={routes.ABOUT_US} component={AboutUsPage} />
+        <Route path={routes.OUR_TEAM} component={OurTeamPage} />
         <Route path={routes.OUR_WORK} component={OurWorkPage} />
         <Route path={routes.CONTACT} component={ContactPage} />
         <Redirect to="/" />

@@ -14,7 +14,8 @@ export default class Slider extends Component {
     return (
       <div className={s.slider}>
         <div className="container">
-          <Slideshow className={s.text} slides={slides} />
+          <h1>WELCOME TO PLATFORM 195</h1>
+          {/* <Slideshow className={s.text} slides={slides} /> */}
         </div>
       </div>
     );

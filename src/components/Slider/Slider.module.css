@@ -6,6 +6,11 @@
   position: relative;
 }
 
+h1 {
+  color: white;
+  margin: 0 auto;
+}
+
 .screenW {
   width: 100vw;
 }

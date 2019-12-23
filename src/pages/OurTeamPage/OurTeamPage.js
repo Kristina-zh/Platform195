@@ -1,6 +1,9 @@
 import React from 'react';
 import Team from '../../components/Team/Team';
+import Footer from '../../components/Footer/Footer';
 import s from './OurTeamPage.module.css';
+
+import members from '../../components/Team/teamArr';
 
 const OurTeam = () => {
   return (
@@ -12,7 +15,7 @@ const OurTeam = () => {
         </div>
       </section>
       <div className="container">
-        <section>
+        <section className={s.team}>
           <div className={s.textWrapper}>
             <p className={s.text}>
               We see big potential and care deeply about what we do every day.
@@ -26,7 +29,8 @@ const OurTeam = () => {
               experience across the company.
             </p>
           </div>
-          <Team />
+          <Team items={members} />
+          <Footer />
         </section>
       </div>
     </>

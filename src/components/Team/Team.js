@@ -1,29 +1,31 @@
 import React from 'react';
-import Socials from './Socials';
+import { ReactComponent as Box } from '../../icons/linkedin.svg';
 import s from '../../pages/OurTeamPage/OurTeamPage.module.css';
 
-const Team = () => {
+const Team = ({ items }) => {
   return (
-    <>
-      <ul>
-        <li class={s.item}>
-          <Socials />
+    <ul className={s.teamList}>
+      {items.map(el => (
+        <li className={s.teamItem} key={`${el.id}`}>
           <picture>
-            {/* <source media="(min-width: 1024px)" srcset="./images/second/1.jpg 1x, ./images/second/1@2x.jpg 2x"> */}
-            {/* <source srcset="./images/second/1.jpg, ./images/second/1@2x.jpg 2x"> */}
-            <img
-              src="./images/second/1.jpg"
-              alt="default"
-              width="380"
-              height="470"
-            />
+            <img className={s.teamImg} src={el.picture} alt="default" />
+            <div className={s.overlay}>
+              <div>
+                <h3
+                  className="wow animated fadeInUp"
+                  data-wow-delay="0.3s"
+                  className={s.teamName}
+                >
+                  {el.name}
+                </h3>
+                <p className={s.teamOccupation}>{el.position}</p>
+                <Box className={s.box} />
+              </div>
+            </div>
           </picture>
-
-          <h3 class="team__list__title">Matthew Dix</h3>
-          <p class="team__list__occupation">Graphic Design</p>
         </li>
-      </ul>
-    </>
+      ))}
+    </ul>
   );
 };
 

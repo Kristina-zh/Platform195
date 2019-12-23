@@ -1,0 +1,53 @@
+.div {
+  height: 100vh;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: relative;
+  transition: 200ms linear;
+  z-index: 20000;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -70%);
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  top: 57%;
+  transform: translateX(-50%);
+  font-size: 18px;
+}
+
+/* .title:before {
+  content: '\2014';
+}
+
+.title:after {
+  content: '\2014';
+} */
+
+.left {
+  color: white;
+  border-top: 1px solid white;
+  position: absolute;
+  height: 85px;
+  width: 125px;
+  left: 32%;
+  top: 59%;
+}
+
+.right {
+  color: white;
+  border-top: 1px solid white;
+  position: absolute;
+  height: 85px;
+  width: 120px;
+  left: 59.5%;
+  top: 59%;
+}

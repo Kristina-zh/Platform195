@@ -1,0 +1,40 @@
+.intro {
+  height: 250px;
+  background-color: black;
+  display: flex;
+  color: white;
+  margin-left: -66%;
+}
+
+h2 {
+  display: block;
+  text-transform: uppercase;
+  padding: 140px 0 20px 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.introText {
+  font-size: 18px;
+}
+
+.textWrapper {
+  padding: 150px 0 150px;
+}
+
+.text {
+  font-family: 'Khula', sans-serif;
+  font-size: 39px;
+  line-height: 1.14em;
+  color: #1c1b20;
+  margin-bottom: 20px;
+}
+
+span {
+  font-family: 'Libre Baskerville', serif;
+  color: #c99e67;
+}
+
+.ourWork {
+  display: flex;
+  /* justify-content: center; */
+}

@@ -1,25 +1,35 @@
 {
   "files": {
-    "main.css": "/Platform195/static/css/main.91c469d7.chunk.css",
-    "main.js": "/Platform195/static/js/main.0cbfc244.chunk.js",
-    "main.js.map": "/Platform195/static/js/main.0cbfc244.chunk.js.map",
-    "runtime-main.js": "/Platform195/static/js/runtime-main.6468824a.js",
-    "runtime-main.js.map": "/Platform195/static/js/runtime-main.6468824a.js.map",
-    "static/js/2.a58263c9.chunk.js": "/Platform195/static/js/2.a58263c9.chunk.js",
-    "static/js/2.a58263c9.chunk.js.map": "/Platform195/static/js/2.a58263c9.chunk.js.map",
+    "main.css": "/Platform195/static/css/main.699eed31.chunk.css",
+    "main.js": "/Platform195/static/js/main.a77b6f7a.chunk.js",
+    "main.js.map": "/Platform195/static/js/main.a77b6f7a.chunk.js.map",
+    "runtime-main.js": "/Platform195/static/js/runtime-main.c420199f.js",
+    "runtime-main.js.map": "/Platform195/static/js/runtime-main.c420199f.js.map",
+    "static/js/2.cb939bd8.chunk.js": "/Platform195/static/js/2.cb939bd8.chunk.js",
+    "static/js/2.cb939bd8.chunk.js.map": "/Platform195/static/js/2.cb939bd8.chunk.js.map",
     "index.html": "/Platform195/index.html",
-    "precache-manifest.4de2e6c01a8532287a93b575442ddef7.js": "/Platform195/precache-manifest.4de2e6c01a8532287a93b575442ddef7.js",
+    "precache-manifest.4a717eaab160278cc975b62fa77cd542.js": "/Platform195/precache-manifest.4a717eaab160278cc975b62fa77cd542.js",
     "service-worker.js": "/Platform195/service-worker.js",
-    "static/css/main.91c469d7.chunk.css.map": "/Platform195/static/css/main.91c469d7.chunk.css.map",
+    "static/css/main.699eed31.chunk.css.map": "/Platform195/static/css/main.699eed31.chunk.css.map",
+    "static/media/Alan.jpeg": "/Platform195/static/media/Alan.1535f8ac.jpeg",
+    "static/media/Anthony.jpg": "/Platform195/static/media/Anthony.cef7bb39.jpg",
+    "static/media/Mark.jpg": "/Platform195/static/media/Mark.43f65ead.jpg",
+    "static/media/PLATFORM_195_LOGO_white.jpg": "/Platform195/static/media/PLATFORM_195_LOGO_white.3ad8956e.jpg",
     "static/media/PLATFORM_195_reversed.jpg": "/Platform195/static/media/PLATFORM_195_reversed.0e1a20f4.jpg",
+    "static/media/Stuart.jpg": "/Platform195/static/media/Stuart.9168f7f3.jpg",
+    "static/media/facebook.49bd157a.svg": "/Platform195/static/media/facebook.49bd157a.svg",
+    "static/media/instagram.c057d500.svg": "/Platform195/static/media/instagram.c057d500.svg",
+    "static/media/linkedin.b6d9ba70.svg": "/Platform195/static/media/linkedin.b6d9ba70.svg",
+    "static/media/twitter.6134b234.svg": "/Platform195/static/media/twitter.6134b234.svg",
     "static/media/txt1.png": "/Platform195/static/media/txt1.dcf3a68e.png",
     "static/media/txt2.png": "/Platform195/static/media/txt2.daf3ef79.png",
-    "static/media/txt3.png": "/Platform195/static/media/txt3.b1748a47.png"
+    "static/media/txt3.png": "/Platform195/static/media/txt3.b1748a47.png",
+    "static/media/vimeo.3ebfae65.svg": "/Platform195/static/media/vimeo.3ebfae65.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6468824a.js",
-    "static/js/2.a58263c9.chunk.js",
-    "static/css/main.91c469d7.chunk.css",
-    "static/js/main.0cbfc244.chunk.js"
+    "static/js/runtime-main.c420199f.js",
+    "static/js/2.cb939bd8.chunk.js",
+    "static/css/main.699eed31.chunk.css",
+    "static/js/main.a77b6f7a.chunk.js"
   ]
 }

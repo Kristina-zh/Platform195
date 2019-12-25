@@ -1,0 +1,44 @@
+.textWrapper {
+  padding: 150px 0 150px;
+}
+
+.text {
+  font-family: 'Khula', sans-serif;
+  font-size: 39px;
+  line-height: 1.14em;
+  color: #1c1b20;
+  margin-bottom: 20px;
+}
+
+span {
+  font-family: 'Libre Baskerville', serif;
+  color: #c99e67;
+}
+
+.videoList {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.button {
+  margin-bottom: 0;
+}
+
+li {
+  margin: 0;
+}
+
+.buttonLink {
+  text-decoration: none;
+  color: black;
+}
+
+.buttonLink:hover {
+  color: white;
+  /* transition: color 300ms linear; */
+}
+
+.experienceH2 {
+  margin-bottom: 50px;
+}

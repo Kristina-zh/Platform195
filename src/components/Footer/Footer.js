@@ -1,7 +1,5 @@
 import React from 'react';
-import { ReactComponent as Facebook } from '../../icons/facebook.svg';
 import { ReactComponent as Instagram } from '../../icons/instagram.svg';
-import { ReactComponent as Twitter } from '../../icons/twitter.svg';
 import { ReactComponent as Linkedin } from '../../icons/linkedin.svg';
 import { ReactComponent as Vimeo } from '../../icons/vimeo.svg';
 import logo from '../../img/PLATFORM_195_LOGO_white.jpg';
@@ -14,11 +12,6 @@ const Footer = () => {
         <img className={s.logo} src={logo} alt="white logo" height="60px" />
         <ul className={s.socials}>
           <li>
-            <a className={s.socialsLink} href="#">
-              <Facebook />
-            </a>
-          </li>
-          <li>
             <a
               className={s.socialsLink}
               href="https://www.instagram.com/platform_195/?hl=en"
@@ -26,11 +19,7 @@ const Footer = () => {
               <Instagram />
             </a>
           </li>
-          <li>
-            <a className={s.socialsLink} href="#">
-              <Twitter />
-            </a>
-          </li>
+
           <li>
             <a
               className={s.socialsLink}

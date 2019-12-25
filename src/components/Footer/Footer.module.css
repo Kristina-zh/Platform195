@@ -2,6 +2,7 @@
   align-items: center;
   width: auto;
   position: relative;
+  margin-bottom: 100px;
 }
 
 .footerWrapper {
@@ -15,9 +16,9 @@
 
 .socials {
   display: flex;
-  list-style: none;
   justify-content: space-between;
-  padding-bottom: 50px;
+  width: 200px;
+  margin: 0 auto;
 }
 
 .socialsLink {

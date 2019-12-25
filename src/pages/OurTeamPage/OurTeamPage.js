@@ -15,7 +15,7 @@ const OurTeam = () => {
         </div>
       </section>
       <div className="container">
-        <section className={s.team}>
+        <section className={s.textSection}>
           <div className={s.textWrapper}>
             <p className={s.text}>
               We see big potential and care deeply about what we do every day.

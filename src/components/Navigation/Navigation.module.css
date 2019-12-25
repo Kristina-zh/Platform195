@@ -1,31 +1,28 @@
 .nav {
   background-color: black;
   width: 100%;
-  position: absolute;
-  align-items: center;
-  z-index: 5;
+  z-index: 50;
+  padding: 10px;
+  position: fixed;
 }
 
 .navWrapper {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .list {
-  display: flex;
-  padding: 30px;
-  list-style: none;
-  margin: 0 auto;
   background-color: black;
+  width: 500px;
+  height: 20px;
 }
 
-a {
+.listLink {
   text-decoration: none;
-  /* font-family: Poppins; */
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   color: white;
-  padding-right: 60px;
   transition: color 300ms linear;
 }
 

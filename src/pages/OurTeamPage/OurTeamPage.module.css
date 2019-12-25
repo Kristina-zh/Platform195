@@ -11,6 +11,7 @@ h2 {
   text-transform: uppercase;
   padding: 140px 0 20px 0;
   font-family: 'Raleway', sans-serif;
+  font-weight: 600;
 }
 
 .introText {
@@ -37,7 +38,6 @@ span {
 /* team */
 
 .teamList {
-  list-style: none;
   font-size: 0px;
   display: flex;
   justify-content: space-between;
@@ -45,8 +45,8 @@ span {
 
 .teamItem {
   position: relative;
-  width: 25%;
-  margin-right: 30px;
+  max-width: 22%;
+  /* margin-right: 30px; */
 }
 
 .teamItem:last-of-type {

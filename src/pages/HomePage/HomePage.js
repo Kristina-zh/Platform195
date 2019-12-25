@@ -1,124 +1,74 @@
 import React from 'react';
-import Slider from '../../components/Slider/Slider';
+import { Link } from 'react-router-dom';
+import SliderWrapper from '../../components/Slider/Slider';
+import OurExperience from '../../components/OurExperience/OurExperience';
+import logos from '../../components/OurExperience/logos';
+import routes from '../../routes';
+import s from './HomePage.module.css';
 
 const HomePage = () => {
   return (
     <>
-      <Slider />
-      <section>
-        <p>
-          World-class creativity coupled with cutting edge, data-fuelled
-          technology and media solutions delivered by a team of people who care
-          passionately about what we do.
-        </p>
+      <div>
+        <SliderWrapper />
+      </div>
+      <section className="container">
+        <div className={s.textWrapper}>
+          <p className={s.text}>
+            We build media platforms and creative solutions that work together
+            to deliver <span>successful campaigns</span>. By bringing together
+            creative expertise, media solutions and data insight, we ensure our
+            projects <span>drive profitability</span>.
+          </p>
+          <p className={s.text}>
+            There is <span>no agency</span> that <span>specialises</span> in
+            travel at the scale we do.
+          </p>
+        </div>
       </section>
-      <section>
-        <ul>
+      <section className="container">
+        <ul className={s.videoList}>
           <li>
-            <img src="" alt="" />
+            <iframe
+              src="https://player.vimeo.com/video/340362775"
+              width="520"
+              height="300"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+              margin="0"
+            ></iframe>
           </li>
           <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
+            <iframe
+              src="https://player.vimeo.com/video/297954415"
+              width="520"
+              height="300"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+            ></iframe>
           </li>
         </ul>
-        {/* <button>View more work</button> */}
+        <button type="button" className="button">
+          <Link className={s.buttonLink} to={routes.OUR_WORK}>
+            View More Work
+          </Link>
+        </button>
       </section>
-      <section>
-        <h3>Media solutions</h3>
-        <p>
-          We help companies transform their marketing through a suite of
-          data-fuelled, multi-channel media solutions powered by our
-          cutting-edge technology platform. We help you capture value from your
-          owned channels and beyond, whilst activating, optimising and reporting
-          on thousands of campaigns at any given time. Driving effectiveness,
-          significantly easing team workloads and boosting profits. When used in
-          conjunction with our data-informed creative opportunities, your
-          marketing moves from functional to inspirational and highly effective.
-        </p>
-        <h3>Creative & Content</h3>
-        <p>
-          We harness world-class creativity and the power of technology to help
-          brands inspire, engage and sell. Our experts deliver campaigns from
-          the top of the purchase funnel to the bottom. From TV production to
-          brand design, from influencers to thousands of dynamic price-led ads,
-          we help you engage with and convert the people who purchase your
-          product. When coupled with our media platform that harnesses
-          data-points in the millions and delivers everything from video through
-          to point of sale advertising, we make your campaigns work even harder.
-        </p>
-        <h3>Technology Integration</h3>
-        <p>
-          We passionately believe in the power of technology to inform and power
-          campaign creation and activation. With a tech team steeped in
-          experience, we help you transform how you use marketing technology.
-          Tailored to your needs, we build and integrate everything from digital
-          asset management systems to OTTV services to in-house programmatic
-          marketing stacks. Using the power of data, the platforms we give you
-          inform everything, from identifying persona-sets, knowing which image
-          or video will engage to tracking effectiveness of your marketing.{' '}
-        </p>
+      <section className="container">
+        <h2 className={s.experienceH2}>Our experience</h2>
+        <OurExperience logos={logos} />
       </section>
-      <section>
-        <h2>Our experiences</h2>
-        <ul>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-        </ul>
-      </section>
-      <section>
+
+      {/* <section>
         <h3>Interested in our services? We’re here to help!</h3>
         <p>
           We want to know your needs exactly so that we can provide the perfect
           solution. Let us know what you want and we’ll do our best to help.
         </p>
         <button>Let's conect</button>
-      </section>
+      </section> */}
     </>
   );
 };

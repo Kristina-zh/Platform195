@@ -1,23 +1,48 @@
 import React, { Component } from 'react';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
+import slider1 from '../../img/slider/slider1.jpg';
+import slider2 from '../../img/slider/slider2.jpg';
+import slider3 from '../../img/slider/slider3.jpg';
+
 import s from './Slider.module.css';
-import logo1 from '../../img/txt1.png';
-import logo2 from '../../img/txt2.png';
-import logo3 from '../../img/txt3.png';
-import Slideshow from './SlideShow/SlideShow';
 
-const slides = [logo1, logo2, logo3];
-
-export default class Slider extends Component {
+export default class SliderWrapper extends Component {
   state = {};
 
   render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    };
     return (
-      <div className={s.slider}>
-        <div className="container">
-          <h1>WELCOME TO PLATFORM 195</h1>
-          {/* <Slideshow className={s.text} slides={slides} /> */}
+      <Slider {...settings} autoplay>
+        <div className={s.div}>
+          <p className={s.text}>
+            World-class <span>creativity</span> coupled with{' '}
+            <span>cutting edge</span>
+          </p>
+          <img className={s.image} src={slider1} alt="" width="500px" />
         </div>
-      </div>
+        <div className={s.div}>
+          <p className={s.text}>
+            Data-fuelled <span>technology</span> and{' '}
+            <span>media solutions</span>
+          </p>
+          <img className={s.image} src={slider3} alt="" width="500px" />
+        </div>
+        <div className={s.div}>
+          <p className={s.text}>
+            Delivered by a team of people who <span>care passionately</span>{' '}
+            about what we do
+          </p>
+          <img className={s.image} src={slider2} alt="" width="500px" />
+        </div>
+      </Slider>
     );
   }
 }

@@ -25,8 +25,14 @@ ul {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 300px;
   margin: 0 auto;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1100px;
+  }
 }
 
 button {
@@ -45,6 +51,9 @@ button {
   background-color: #c99e67;
   border-radius: 10px;
   outline: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin-bottom: 150px;
 }
 
 .button:hover {

@@ -31,7 +31,7 @@ export default class App extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ showSlide: false });
-    }, 3000);
+    }, 300);
   }
 
   render() {

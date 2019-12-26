@@ -30,7 +30,6 @@ const OurTeam = () => {
             </p>
           </div>
           <Team items={members} />
-          <Footer />
         </section>
       </div>
     </>

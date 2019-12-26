@@ -1,5 +1,5 @@
 import React from 'react';
-import logoBlack from '../../img/PLATFORM_195_reversed.jpg';
+import logoBlack from '../../img/blackMainLogo.jpg';
 import s from './FirstSlide.module.css';
 
 const FirstSlide = () => {

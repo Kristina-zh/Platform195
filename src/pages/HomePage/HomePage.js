@@ -4,6 +4,9 @@ import SliderWrapper from '../../components/Slider/Slider';
 import OurExperience from '../../components/OurExperience/OurExperience';
 import logos from '../../components/OurExperience/logos';
 import routes from '../../routes';
+import image1 from '../../img/Cuba.png';
+import image2 from '../../img/Hotelimg2.png';
+import imageBg from '../../img/agency.jpeg';
 import s from './HomePage.module.css';
 
 const HomePage = () => {
@@ -29,10 +32,19 @@ const HomePage = () => {
       <section className="container">
         <ul className={s.videoList}>
           <li>
+            <div className={s.overlayImg}>
+              <img
+                className={s.img}
+                src={image1}
+                alt=""
+                width="300px"
+                // height="293px"
+              />
+            </div>
             <iframe
               src="https://player.vimeo.com/video/340362775"
-              width="520"
-              height="300"
+              width="300"
+              // height="293"
               frameborder="0"
               allow="autoplay; fullscreen"
               allowfullscreen
@@ -40,10 +52,13 @@ const HomePage = () => {
             ></iframe>
           </li>
           <li>
+            <div className={s.overlayImg}>
+              <img src={image2} alt="" width="300px" />
+            </div>
             <iframe
-              src="https://player.vimeo.com/video/297954415"
-              width="520"
-              height="300"
+              src="https://player.vimeo.com/video/265529409"
+              width="300"
+              // height="293"
               frameborder="0"
               allow="autoplay; fullscreen"
               allowfullscreen
@@ -56,18 +71,33 @@ const HomePage = () => {
           </Link>
         </button>
       </section>
-      <section className="container">
+      {/* <section className="container">
+        <div className={s.agencyDiv}>
+          <img className={s.imgBg} src={imageBg} alt="" width="1100px" />
+          <div className={s.whiteOverlay}>
+            <ul className={s.whiteList}>
+              <button className={s.whiteButton}>Media Solutions</button>
+              <button className={s.whiteButton}>Creative & Content</button>
+              <button className={s.whiteButton}>Technology Integration</button>
+            </ul>
+            <p>
+              We help companies transform their marketing through a suite of
+              data-fuelled, multi-channel media solutions powered by our
+              cutting-edge technology platform. We help you capture value from
+              your owned channels and beyond, whilst activating, optimising and
+              reporting on thousands of campaigns at any given time. <br></br>
+              <br></br>
+              Driving effectiveness, significantly easing team workloads and
+              boosting profits. When used in conjunction with our data-informed
+              creative opportunities, your marketing moves from functional to
+              inspirational and highly effective.
+            </p>
+          </div>
+        </div>
+      </section> */}
+      {/* <section className="container">
         <h2 className={s.experienceH2}>Our experience</h2>
         <OurExperience logos={logos} />
-      </section>
-
-      {/* <section>
-        <h3>Interested in our services? We’re here to help!</h3>
-        <p>
-          We want to know your needs exactly so that we can provide the perfect
-          solution. Let us know what you want and we’ll do our best to help.
-        </p>
-        <button>Let's conect</button>
       </section> */}
     </>
   );

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
+import routes from '../../routes';
 import { CSSTransition } from 'react-transition-group';
+import { ReactComponent as Burger } from '../../icons/burger.svg';
 import s from './Modal.module.css';
 
 export default class Modal extends Component {
@@ -21,7 +24,7 @@ export default class Modal extends Component {
           className={s.button}
           onClick={this.toggleDropdown}
         >
-          &#9776;
+          <Burger />
         </button>
 
         <CSSTransition
@@ -30,14 +33,49 @@ export default class Modal extends Component {
           // classNames={slideTransition}
           unmountOnExit
         >
-          <div className={s.whiteDrop}>
-            <div className={s.whiteDrop}>
-              <div>logo</div>
-              <h2>Get in touch</h2>
-              <p>some text</p>
-              <p>contacts</p>
-              <u>social icons</u>
-            </div>
+          <div className={s.dropdown}>
+            <ul className={s.list}>
+              <li className={s.listItem}>
+                <NavLink
+                  exact
+                  activeClassName={s.active}
+                  className={s.listLink}
+                  to={routes.HOME}
+                >
+                  Home
+                </NavLink>
+              </li>
+              <li className={s.listItem}>
+                <NavLink
+                  exact
+                  activeClassName={s.active}
+                  className={s.listLink}
+                  to={routes.OUR_TEAM}
+                >
+                  Our team
+                </NavLink>
+              </li>
+              <li className={s.listItem}>
+                <NavLink
+                  exact
+                  activeClassName={s.active}
+                  className={s.listLink}
+                  to={routes.OUR_WORK}
+                >
+                  Our work
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  exact
+                  activeClassName={s.active}
+                  className={s.listLink}
+                  to={routes.CONTACT}
+                >
+                  Contact
+                </NavLink>
+              </li>
+            </ul>
           </div>
         </CSSTransition>
       </section>

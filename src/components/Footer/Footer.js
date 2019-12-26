@@ -2,7 +2,7 @@ import React from 'react';
 import { ReactComponent as Instagram } from '../../icons/instagram.svg';
 import { ReactComponent as Linkedin } from '../../icons/linkedin.svg';
 import { ReactComponent as Vimeo } from '../../icons/vimeo.svg';
-import logo from '../../img/PLATFORM_195_LOGO_white.jpg';
+import logo from '../../img/whiteMainLogo.jpg';
 import s from './Footer.module.css';
 
 const Footer = () => {

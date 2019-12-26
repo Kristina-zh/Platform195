@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b32e77b6f824c3ea46a65a8635929ead",
+    "revision": "4a659114352fb83a179ece902f21b481",
     "url": "/Platform195/index.html"
   },
   {
-    "revision": "fbec782c5353553cb850",
+    "revision": "4fdef5c269f2ddc1abfc",
     "url": "/Platform195/static/css/2.c1532ac9.chunk.css"
   },
   {
-    "revision": "59f547d747c9ff7fd721",
-    "url": "/Platform195/static/css/main.3af92de5.chunk.css"
+    "revision": "09530a5262a6f81657de",
+    "url": "/Platform195/static/css/main.d3af3604.chunk.css"
   },
   {
-    "revision": "fbec782c5353553cb850",
-    "url": "/Platform195/static/js/2.b0bb1c0e.chunk.js"
+    "revision": "4fdef5c269f2ddc1abfc",
+    "url": "/Platform195/static/js/2.a2d51c78.chunk.js"
   },
   {
-    "revision": "59f547d747c9ff7fd721",
-    "url": "/Platform195/static/js/main.1f31ce11.chunk.js"
+    "revision": "09530a5262a6f81657de",
+    "url": "/Platform195/static/js/main.005c0e55.chunk.js"
   },
   {
     "revision": "fbcd1fbd7449facf6ad8",
@@ -40,8 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Platform195/static/media/Anthony.cef7bb39.jpg"
   },
   {
+    "revision": "4ccb542ef6d95703e4d1034576c9bfdc",
+    "url": "/Platform195/static/media/Cuba.4ccb542e.png"
+  },
+  {
     "revision": "e562e58e2e932e833f5cd581768e9043",
     "url": "/Platform195/static/media/HOTELS_RESORTS_IBEROSTAR.e562e58e.jpg"
+  },
+  {
+    "revision": "58129c8079bb28665cbf47ba9ef655b1",
+    "url": "/Platform195/static/media/Hotelimg2.58129c80.png"
   },
   {
     "revision": "27c6d1d760f8ae4a536ad2e71f13f8ac",
@@ -54,14 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "43f65ead3df72caef1bc0a0a80aaf3f0",
     "url": "/Platform195/static/media/Mark.43f65ead.jpg"
-  },
-  {
-    "revision": "3ad8956e8cb48807b33049e2fe98328c",
-    "url": "/Platform195/static/media/PLATFORM_195_LOGO_white.3ad8956e.jpg"
-  },
-  {
-    "revision": "0e1a20f4220a58e1fcfbb4d14e4224ea",
-    "url": "/Platform195/static/media/PLATFORM_195_reversed.0e1a20f4.jpg"
   },
   {
     "revision": "6c3562a2744144f607c72d41bd91fdab",
@@ -80,8 +80,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Platform195/static/media/Visit-Mexico-logo-880x654.ead41cb1.png"
   },
   {
+    "revision": "ed655d7ecc5eb4983b2d520fed7981a9",
+    "url": "/Platform195/static/media/agency.ed655d7e.jpeg"
+  },
+  {
     "revision": "5d8b0d15a9b2f865a33f8c47d300664c",
     "url": "/Platform195/static/media/b1c5ce0896bcd83deddd6268507383b0.5d8b0d15.jpeg"
+  },
+  {
+    "revision": "0e1a20f4220a58e1fcfbb4d14e4224ea",
+    "url": "/Platform195/static/media/blackMainLogo.0e1a20f4.jpg"
+  },
+  {
+    "revision": "52b4481feed0ffce6c17de918edc5653",
+    "url": "/Platform195/static/media/burger.52b4481f.svg"
   },
   {
     "revision": "816eb29c9d38b8ae1f7fa263a91730ee",
@@ -142,5 +154,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3ebfae65cd6ffebed385a5bbf11ef209",
     "url": "/Platform195/static/media/vimeo.3ebfae65.svg"
+  },
+  {
+    "revision": "3ad8956e8cb48807b33049e2fe98328c",
+    "url": "/Platform195/static/media/whiteMainLogo.3ad8956e.jpg"
   }
 ]);

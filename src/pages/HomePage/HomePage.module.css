@@ -1,3 +1,5 @@
+/* section text */
+
 .textWrapper {
   padding: 100px 0;
 }
@@ -10,10 +12,9 @@
 
 .text {
   font-family: 'Khula', sans-serif;
-  font-size: 34px;
-  line-height: 1.14em;
+  font-size: 24px;
+  line-height: 1.3em;
   color: #1c1b20;
-  /* margin-bottom: 20px; */
 }
 
 @media (min-width: 1280px) {
@@ -27,6 +28,8 @@ span {
   font-family: 'Libre Baskerville', serif;
   color: #c99e67;
 }
+
+/* section videos */
 
 .videoList {
   display: flex;
@@ -59,8 +62,11 @@ li {
 .overlayImg {
   position: absolute;
   opacity: 1;
+  width: 300px;
   object-fit: cover;
   transition: 300ms linear;
+  height: 180px;
+  padding-top: 15px;
 }
 
 .overlayImg:hover {
@@ -68,13 +74,20 @@ li {
   transition: 300ms linear;
 }
 
+.video {
+  /* padding-bottom: 30px; */
+  /* align-items: start; */
+}
+
 .img {
-  height: 293px;
+  /* padding-bottom: 20px; */
 }
 /*
 .imgBg {
   max-width: 100vw;
 } */
+
+/* section agency */
 
 .agencyDiv {
   position: relative;

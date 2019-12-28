@@ -38,27 +38,28 @@ const HomePage = () => {
                 src={image1}
                 alt=""
                 width="300px"
-                // height="293px"
+                height="170px"
               />
             </div>
             <iframe
               src="https://player.vimeo.com/video/340362775"
               width="300"
-              // height="293"
+              height="200"
+              className={s.video}
               frameborder="0"
               allow="autoplay; fullscreen"
               allowfullscreen
-              margin="0"
+              top="0"
             ></iframe>
           </li>
           <li>
             <div className={s.overlayImg}>
-              <img src={image2} alt="" width="300px" />
+              <img src={image2} alt="" width="300px" height="170px" />
             </div>
             <iframe
               src="https://player.vimeo.com/video/265529409"
               width="300"
-              // height="293"
+              height="200"
               frameborder="0"
               allow="autoplay; fullscreen"
               allowfullscreen
@@ -71,7 +72,7 @@ const HomePage = () => {
           </Link>
         </button>
       </section>
-      {/* <section className="container">
+      <section className="container">
         <div className={s.agencyDiv}>
           <img className={s.imgBg} src={imageBg} alt="" width="1100px" />
           <div className={s.whiteOverlay}>
@@ -94,7 +95,7 @@ const HomePage = () => {
             </p>
           </div>
         </div>
-      </section> */}
+      </section>
       {/* <section className="container">
         <h2 className={s.experienceH2}>Our experience</h2>
         <OurExperience logos={logos} />

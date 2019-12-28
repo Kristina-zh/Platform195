@@ -1,8 +1,7 @@
 .div {
   width: 100%;
-  height: calc(0.7 * 100vw);
+  height: calc(0.8 * 100vw);
   background: black;
-  margin-top: 80px;
 }
 
 @media (min-width: 1280px) {
@@ -15,9 +14,9 @@
 .image {
   position: absolute;
   width: calc(0.5 * 100vw);
-  margin-left: 150px;
+  margin-left: calc(0.45 * 100vw);
   display: block;
-  top: 60%;
+  top: 50%;
   transform: translateY(-50%);
 }
 
@@ -34,13 +33,37 @@
   font-size: 18px;
   line-height: 1.14em;
   color: white;
-  margin-left: 40px;
+  margin-left: 1.5%;
   position: absolute;
   width: 100px;
-  top: 60%;
+  top: 50%;
   transform: translateY(-50%);
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
+}
+
+@media (min-width: 380px) {
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 450px) {
+  .text {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 600px) {
+  .text {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .text {
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 1280px) {

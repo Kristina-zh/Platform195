@@ -14,6 +14,10 @@ export default class Modal extends Component {
     this.setState(state => ({ isOpen: !state.isOpen }));
   };
 
+  onDropdown = () => {
+    this.setState(state => ({ isOpen: state.false }));
+  };
+
   render() {
     const { isOpen } = this.state;
 
@@ -41,6 +45,7 @@ export default class Modal extends Component {
                   activeClassName={s.active}
                   className={s.listLink}
                   to={routes.HOME}
+                  onClick={this.onDropdown}
                 >
                   Home
                 </NavLink>
@@ -51,6 +56,7 @@ export default class Modal extends Component {
                   activeClassName={s.active}
                   className={s.listLink}
                   to={routes.OUR_TEAM}
+                  onClick={this.onDropdown}
                 >
                   Our team
                 </NavLink>
@@ -61,6 +67,7 @@ export default class Modal extends Component {
                   activeClassName={s.active}
                   className={s.listLink}
                   to={routes.OUR_WORK}
+                  onClick={this.onDropdown}
                 >
                   Our work
                 </NavLink>
@@ -71,6 +78,7 @@ export default class Modal extends Component {
                   activeClassName={s.active}
                   className={s.listLink}
                   to={routes.CONTACT}
+                  onClick={this.onDropdown}
                 >
                   Contact
                 </NavLink>

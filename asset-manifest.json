@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/Platform195/static/css/main.6a3ec581.chunk.css",
-    "main.js": "/Platform195/static/js/main.1241d784.chunk.js",
-    "main.js.map": "/Platform195/static/js/main.1241d784.chunk.js.map",
+    "main.css": "/Platform195/static/css/main.869e30fd.chunk.css",
+    "main.js": "/Platform195/static/js/main.f5152e75.chunk.js",
+    "main.js.map": "/Platform195/static/js/main.f5152e75.chunk.js.map",
     "runtime-main.js": "/Platform195/static/js/runtime-main.c420199f.js",
     "runtime-main.js.map": "/Platform195/static/js/runtime-main.c420199f.js.map",
     "static/css/2.c1532ac9.chunk.css": "/Platform195/static/css/2.c1532ac9.chunk.css",
-    "static/js/2.f6d985fa.chunk.js": "/Platform195/static/js/2.f6d985fa.chunk.js",
-    "static/js/2.f6d985fa.chunk.js.map": "/Platform195/static/js/2.f6d985fa.chunk.js.map",
+    "static/js/2.1bc78c24.chunk.js": "/Platform195/static/js/2.1bc78c24.chunk.js",
+    "static/js/2.1bc78c24.chunk.js.map": "/Platform195/static/js/2.1bc78c24.chunk.js.map",
     "index.html": "/Platform195/index.html",
-    "precache-manifest.947a5cb824af5a10d44e0b4783ade9f7.js": "/Platform195/precache-manifest.947a5cb824af5a10d44e0b4783ade9f7.js",
+    "precache-manifest.a8d2b7b1cab558165f2ad3da3391b128.js": "/Platform195/precache-manifest.a8d2b7b1cab558165f2ad3da3391b128.js",
     "service-worker.js": "/Platform195/service-worker.js",
     "static/css/2.c1532ac9.chunk.css.map": "/Platform195/static/css/2.c1532ac9.chunk.css.map",
-    "static/css/main.6a3ec581.chunk.css.map": "/Platform195/static/css/main.6a3ec581.chunk.css.map",
+    "static/css/main.869e30fd.chunk.css.map": "/Platform195/static/css/main.869e30fd.chunk.css.map",
+    "static/media/1356435001.mp4": "/Platform195/static/media/1356435001.4a160630.mp4",
     "static/media/48f3497593683e5a30d7f20e6027ab52.jpg": "/Platform195/static/media/48f3497593683e5a30d7f20e6027ab52.2bece727.jpg",
     "static/media/500x309.jpg": "/Platform195/static/media/500x309.6b6d1a43.jpg",
+    "static/media/981891778.mp4": "/Platform195/static/media/981891778.e2c9bdcb.mp4",
     "static/media/Alan.jpeg": "/Platform195/static/media/Alan.1535f8ac.jpeg",
     "static/media/Anthony.jpg": "/Platform195/static/media/Anthony.cef7bb39.jpg",
     "static/media/Cuba.png": "/Platform195/static/media/Cuba.4ccb542e.png",
@@ -48,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.c420199f.js",
     "static/css/2.c1532ac9.chunk.css",
-    "static/js/2.f6d985fa.chunk.js",
-    "static/css/main.6a3ec581.chunk.css",
-    "static/js/main.1241d784.chunk.js"
+    "static/js/2.1bc78c24.chunk.js",
+    "static/css/main.869e30fd.chunk.css",
+    "static/js/main.f5152e75.chunk.js"
   ]
 }

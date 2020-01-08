@@ -12,7 +12,7 @@
 
 .text {
   font-family: 'Khula', sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1.3em;
   color: #1c1b20;
 }
@@ -33,8 +33,9 @@ span {
 
 .videoList {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
+  /* padding-bottom: 50px; */
 }
 
 .button {
@@ -62,11 +63,11 @@ li {
 .overlayImg {
   position: absolute;
   opacity: 1;
-  width: 300px;
+  width: 100%;
   object-fit: cover;
   transition: 300ms linear;
   height: 180px;
-  padding-top: 15px;
+  margin-left: 20px;
 }
 
 .overlayImg:hover {

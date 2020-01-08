@@ -3,13 +3,13 @@
   background-color: black;
   display: flex;
   color: white;
-  margin-left: -60%;
+  /* margin-left: -60%; */
 }
 
 h2 {
   display: flex;
   text-transform: uppercase;
-  padding: 140px 0 20px 0;
+  /* padding: 140px 0 20px 0; */
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
 }
@@ -45,7 +45,8 @@ span {
 
 .teamItem {
   position: relative;
-  max-width: 22%;
+  margin-bottom: 20px;
+  /* max-width: 22%; */
   /* margin-right: 30px; */
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import { Player } from 'video-react';
 import SliderWrapper from '../../components/Slider/Slider';
 import OurExperience from '../../components/OurExperience/OurExperience';
 import logos from '../../components/OurExperience/logos';
@@ -7,6 +8,9 @@ import routes from '../../routes';
 import image1 from '../../img/Cuba.png';
 import image2 from '../../img/Hotelimg2.png';
 import imageBg from '../../img/agency.jpeg';
+import video1 from '../../videos/1356435001.mp4';
+import video2 from '../../videos/981891778.mp4';
+// import 'node_modules/video-react/dist/video-react.css';
 import s from './HomePage.module.css';
 
 const HomePage = () => {
@@ -29,36 +33,35 @@ const HomePage = () => {
           </p>
         </div>
       </section>
-      <section className="container">
+      <section>
         <ul className={s.videoList}>
           <li>
             <div className={s.overlayImg}>
-              <img
-                className={s.img}
-                src={image1}
-                alt=""
-                width="300px"
-                height="170px"
-              />
+              <img src={image1} alt="" width="360px" height="200px" />
             </div>
             <iframe
               src="https://player.vimeo.com/video/340362775"
-              width="300"
+              width="400"
               height="200"
-              className={s.video}
               frameborder="0"
               allow="autoplay; fullscreen"
               allowfullscreen
-              top="0"
             ></iframe>
           </li>
+          {/* <Player
+            // playsInline
+            // poster={image1}
+            src={video1}
+            width="320px"
+            height="170px"
+          /> */}
           <li>
             <div className={s.overlayImg}>
-              <img src={image2} alt="" width="300px" height="170px" />
+              <img src={image2} alt="" width="360px" height="200px" />
             </div>
             <iframe
               src="https://player.vimeo.com/video/265529409"
-              width="300"
+              width="400"
               height="200"
               frameborder="0"
               allow="autoplay; fullscreen"
@@ -72,7 +75,7 @@ const HomePage = () => {
           </Link>
         </button>
       </section>
-      <section className="container">
+      {/* <section className="container">
         <div className={s.agencyDiv}>
           <img className={s.imgBg} src={imageBg} alt="" width="1100px" />
           <div className={s.whiteOverlay}>
@@ -95,7 +98,7 @@ const HomePage = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <section className="container">
         <h2 className={s.experienceH2}>Our experience</h2>
         <OurExperience logos={logos} />

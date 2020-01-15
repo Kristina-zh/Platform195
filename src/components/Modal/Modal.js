@@ -72,7 +72,7 @@ export default class Modal extends Component {
                   Our work
                 </NavLink>
               </li>
-              <li>
+              <li className={s.listItem}>
                 <NavLink
                   exact
                   activeClassName={s.active}

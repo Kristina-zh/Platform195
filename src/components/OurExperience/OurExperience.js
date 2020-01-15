@@ -10,7 +10,7 @@ const OurExperience = ({ logos }) => {
             className={s.logoImg}
             src={el.picture}
             alt="default"
-            height="120px"
+            height={el.height}
           />
         </li>
       ))}

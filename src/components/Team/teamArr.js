@@ -23,21 +23,21 @@ const teamArr = [
     },
   },
   {
-    id: '1002',
-    name: 'Anthony Bridges',
-    picture: Member3,
-    position: 'Head of Platforms',
-    socials: {
-      Linkedin: 'S',
-    },
-  },
-  {
     id: '1003',
     name: 'Alan Cripps',
     picture: Member4,
     position: 'Head of Client Services',
     socials: {
       Linkedin: 'https://www.linkedin.com/in/alan-cripps-89bb2a19/',
+    },
+  },
+  {
+    id: '1002',
+    name: 'Anthony Bridges',
+    picture: Member3,
+    position: 'Head of Platforms',
+    socials: {
+      Linkedin: 'S',
     },
   },
 ];

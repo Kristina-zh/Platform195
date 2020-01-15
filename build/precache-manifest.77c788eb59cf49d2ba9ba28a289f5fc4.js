@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75de699175b5ccc135ef5534590d9df7",
+    "revision": "3c5022f8d92bcff90cfd05044d38acf5",
     "url": "/Platform195/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Platform195/static/css/2.c1532ac9.chunk.css"
   },
   {
-    "revision": "1f26361c76fc7a7e32c1",
-    "url": "/Platform195/static/css/main.869e30fd.chunk.css"
+    "revision": "4a08f69ce18d94723b4a",
+    "url": "/Platform195/static/css/main.50781d8e.chunk.css"
   },
   {
     "revision": "a425c289a45a3144fbd7",
     "url": "/Platform195/static/js/2.1bc78c24.chunk.js"
   },
   {
-    "revision": "1f26361c76fc7a7e32c1",
-    "url": "/Platform195/static/js/main.f5152e75.chunk.js"
+    "revision": "4a08f69ce18d94723b4a",
+    "url": "/Platform195/static/js/main.3a39fd26.chunk.js"
   },
   {
     "revision": "fbcd1fbd7449facf6ad8",

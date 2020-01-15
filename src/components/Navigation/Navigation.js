@@ -12,7 +12,7 @@ const Navigation = () => {
     <nav className={s.nav}>
       <div className="container">
         <div className={s.navWrapper}>
-          <Modal />
+          {windowWidth < 1280 && <Modal />}
           <div>
             <Link to={routes.HOME}>
               {windowWidth >= 1280 && (

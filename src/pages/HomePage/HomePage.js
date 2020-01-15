@@ -1,24 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import { Player } from 'video-react';
+import { Player } from 'video-react';
 import SliderWrapper from '../../components/Slider/Slider';
 import OurExperience from '../../components/OurExperience/OurExperience';
 import logos from '../../components/OurExperience/logos';
 import routes from '../../routes';
 import image1 from '../../img/Cuba.png';
 import image2 from '../../img/Hotelimg2.png';
-import imageBg from '../../img/agency.jpeg';
 import video1 from '../../videos/1356435001.mp4';
 import video2 from '../../videos/981891778.mp4';
 // import 'node_modules/video-react/dist/video-react.css';
 import s from './HomePage.module.css';
+import Solutions from '../../components/Solutions/Solutions';
+import solutions from '../../components/Solutions/solutionsArr';
 
 const HomePage = () => {
   return (
     <>
-      <div>
-        <SliderWrapper />
-      </div>
+      <SliderWrapper />
       <section className="container">
         <div className={s.textWrapper}>
           <p className={s.text}>
@@ -35,7 +34,7 @@ const HomePage = () => {
       </section>
       <section>
         <ul className={s.videoList}>
-          <li>
+          <li className={s.videoItem}>
             <div className={s.overlayImg}>
               <img src={image1} alt="" width="360px" height="200px" />
             </div>
@@ -55,7 +54,7 @@ const HomePage = () => {
             width="320px"
             height="170px"
           /> */}
-          <li>
+          <li className={s.videoItem}>
             <div className={s.overlayImg}>
               <img src={image2} alt="" width="360px" height="200px" />
             </div>
@@ -75,34 +74,13 @@ const HomePage = () => {
           </Link>
         </button>
       </section>
-      {/* <section className="container">
-        <div className={s.agencyDiv}>
-          <img className={s.imgBg} src={imageBg} alt="" width="1100px" />
-          <div className={s.whiteOverlay}>
-            <ul className={s.whiteList}>
-              <button className={s.whiteButton}>Media Solutions</button>
-              <button className={s.whiteButton}>Creative & Content</button>
-              <button className={s.whiteButton}>Technology Integration</button>
-            </ul>
-            <p>
-              We help companies transform their marketing through a suite of
-              data-fuelled, multi-channel media solutions powered by our
-              cutting-edge technology platform. We help you capture value from
-              your owned channels and beyond, whilst activating, optimising and
-              reporting on thousands of campaigns at any given time. <br></br>
-              <br></br>
-              Driving effectiveness, significantly easing team workloads and
-              boosting profits. When used in conjunction with our data-informed
-              creative opportunities, your marketing moves from functional to
-              inspirational and highly effective.
-            </p>
-          </div>
+      <Solutions items={solutions} />
+      <section className="container">
+        <div className={s.clients}>
+          <h2 className={s.experienceH2}>Our experience</h2>
+          <OurExperience logos={logos} />
         </div>
-      </section> */}
-      {/* <section className="container">
-        <h2 className={s.experienceH2}>Our experience</h2>
-        <OurExperience logos={logos} />
-      </section> */}
+      </section>
     </>
   );
 };

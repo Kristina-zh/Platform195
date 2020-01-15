@@ -2,10 +2,15 @@ ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 li {
-  margin-right: 30px;
+  margin: 0 auto;
+  /* margin-right: 30px; */
   margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 20px;
 }

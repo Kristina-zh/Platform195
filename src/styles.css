@@ -14,7 +14,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   font-family: Poppins;
-  padding-top: 70px;
+  margin-top: 70px;
 }
 
 h2 {
@@ -32,7 +32,7 @@ ul {
 }
 
 .container {
-  max-width: 300px;
+  max-width: 90%;
   margin: 0 auto;
 }
 

@@ -7,7 +7,14 @@
   position: relative;
   transition: 200ms linear;
   z-index: 20000;
+  margin-top: -70px;
 }
+
+/* @media (min-width: 1280px) {
+  .div {
+    padding: 150px 0 150px;
+  }
+} */
 
 .logo {
   position: absolute;
@@ -17,29 +24,37 @@
 }
 
 .title {
+  width: 100%;
   position: absolute;
   left: 50%;
-  top: 57%;
+  top: 54%;
   transform: translateX(-50%);
-  font-size: 18px;
+  font-size: 14px;
 }
 
-/* .title:before {
-  content: '\2014';
+@media (min-width: 1280px) {
+  .title {
+    font-size: 18px;
+  }
 }
-
-.title:after {
-  content: '\2014';
-} */
 
 .left {
   color: white;
   border-top: 1px solid white;
   position: absolute;
   height: 85px;
-  width: 125px;
-  left: 32%;
-  top: 59%;
+  width: 40px;
+  left: 12%;
+  top: 55.5%;
+}
+
+@media (min-width: 1280px) {
+  .left {
+    height: 85px;
+    width: 125px;
+    left: 32%;
+    top: 59%;
+  }
 }
 
 .right {
@@ -47,7 +62,16 @@
   border-top: 1px solid white;
   position: absolute;
   height: 85px;
-  width: 120px;
-  left: 59.5%;
-  top: 59%;
+  width: 40px;
+  left: 79.5%;
+  top: 55.5%;
+}
+
+@media (min-width: 1280px) {
+  .right {
+    height: 85px;
+    width: 120px;
+    left: 59.5%;
+    top: 59%;
+  }
 }

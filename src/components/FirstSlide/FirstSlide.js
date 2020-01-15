@@ -5,7 +5,7 @@ import s from './FirstSlide.module.css';
 const FirstSlide = () => {
   return (
     <div className={s.div}>
-      <img className={s.logo} src={logoBlack} alt="" height="150px" />
+      <img className={s.logo} src={logoBlack} alt="" height="80px" />
       <div className={s.left}></div>
       <p className={s.title}>where your journey begins</p>
       <div className={s.right}></div>

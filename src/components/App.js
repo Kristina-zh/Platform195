@@ -31,15 +31,15 @@ export default class App extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ showSlide: false });
-    }, 300);
+    }, 3000);
   }
 
   render() {
     const { showSlide } = this.state;
     return (
       <>
-        <Navigation />
         {showSlide && <FirstSlide />}
+        {showSlide === false && <Navigation />}
         <Switch>
           <Route path={routes.HOME} exact component={HomePage} />
           <Route path={routes.OUR_TEAM} component={OurTeamPage} />

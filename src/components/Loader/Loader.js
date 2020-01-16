@@ -1,13 +1,19 @@
 import React from 'react';
-import LoaderComponent from 'react-loader-spinner';
-import styles from './Loader.module.css';
+import Loader from 'react-loader-spinner';
+import s from './Loader.module.css';
 
-const Loader = () => {
+const LoaderComponent = () => {
   return (
-    <div className={styles.loader}>
-      <LoaderComponent type="Puff" color="grey" height={100} width={100} />
+    <div className={s.loader}>
+      <Loader
+        type="Plane"
+        color="white"
+        height={100}
+        width={100}
+        timeout={3000}
+      />
     </div>
   );
 };
 
-export default Loader;
+export default LoaderComponent;

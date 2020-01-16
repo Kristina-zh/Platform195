@@ -28,7 +28,7 @@ export default class Modal extends Component {
           className={s.button}
           onClick={this.toggleDropdown}
         >
-          <Burger />
+          <Burger width={20} height={20} />
         </button>
 
         <CSSTransition

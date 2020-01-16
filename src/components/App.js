@@ -1,27 +1,32 @@
 import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-// import Loadable from 'react-loadable';
-import HomePage from '../pages/HomePage/HomePage';
-import OurTeamPage from '../pages/OurTeamPage/OurTeamPage';
-import OurWorkPage from '../pages/OurWorkPage/OurWorkPage';
-import ContactPage from '../pages/ContactPage/ContactPage';
+import Loadable from 'react-loadable';
+import Loader from './Loader/Loader';
+import FirstSlide from './FirstSlide/FirstSlide';
 import Navigation from './Navigation/Navigation';
 import Footer from './Footer/Footer';
-// import FirstSlide from './FirstSlide/FirstSlide';
-// import Loader from './Loader/Loader';
 import routes from '../routes';
-import videos from '../pages/OurWorkPage/videos';
-
 import '../styles.css';
-import FirstSlide from './FirstSlide/FirstSlide';
 
-// const AsyncHomePage = Loadable({
-//   loader: () =>
-//     import('../pages/HomePage/HomePage' /* webpackChunkName: "home-page" */),
-//   loading: Loader,
-//   timeOut: 2000,
-//   pathDelay: 300,
-// });
+const AsyncHomePage = Loadable({
+  loader: () => import('../pages/HomePage/HomePage'),
+  loading: Loader,
+});
+
+const AsyncOurTeamPage = Loadable({
+  loader: () => import('../pages/OurTeamPage/OurTeamPage'),
+  loading: Loader,
+});
+
+const AsyncOurWorkPage = Loadable({
+  loader: () => import('../pages/OurWorkPage/OurWorkPage'),
+  loading: Loader,
+});
+
+const AsyncContactPage = Loadable({
+  loader: () => import('../pages/ContactPage/ContactPage'),
+  loading: Loader,
+});
 
 export default class App extends Component {
   state = {
@@ -31,7 +36,7 @@ export default class App extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ showSlide: false });
-    }, 3000);
+    }, 30);
   }
 
   render() {
@@ -42,18 +47,15 @@ export default class App extends Component {
         {showSlide === false && <Navigation />}
         {showSlide === false && (
           <Switch>
-            <Route path={routes.HOME} exact component={HomePage} />
-            <Route path={routes.OUR_TEAM} component={OurTeamPage} />
-            <Route
-              path={routes.OUR_WORK}
-              component={OurWorkPage}
-              items={videos}
-            />
-            <Route path={routes.CONTACT} component={ContactPage} />
+            <Route path={routes.HOME} exact component={AsyncHomePage} />
+            <Route path={routes.OUR_TEAM} component={AsyncOurTeamPage} />
+            <Route path={routes.OUR_WORK} component={AsyncOurWorkPage} />
+            <Route path={routes.CONTACT} component={AsyncContactPage} />
             <Redirect to="/" />
           </Switch>
         )}
         {showSlide === false && <Footer />}
+        {/* {isLoading && <Loader />} */}
       </>
     );
   }

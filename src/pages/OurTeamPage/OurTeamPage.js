@@ -1,34 +1,34 @@
 import React from 'react';
 import Team from '../../components/Team/Team';
-import Footer from '../../components/Footer/Footer';
-import s from './OurTeamPage.module.css';
-
 import members from '../../components/Team/teamArr';
 
 const OurTeam = () => {
   return (
     <>
-      <section className={s.intro}>
+      <section className="intro">
         <div className="container">
-          <h2>Our team</h2>
-          <p className={s.introText}>Meet the experts behind our company</p>
+          <div className="intro__div">
+            <h2 className="mainTitle">Our team</h2>
+            <p className="introText">Meet the experts behind our company</p>
+          </div>
         </div>
       </section>
       <div className="container">
-        <section className={s.textSection}>
-          <div className={s.textWrapper}>
-            <p className={s.text}>
-              We see big potential and care deeply about what we do every day.
-              Our unique blend of <span>technical</span>, <span>creative</span>{' '}
-              and <span>international expertise</span> guarantees that we have
-              the very best staff all over the world and at every level of our
-              organisation.
-            </p>
-            <p className={s.text}>
-              <span>Our leadership team</span> lead a breadth and depth of
-              experience across the company.
-            </p>
-          </div>
+        <section className="textWrapper">
+          <p className="text">
+            We're a <span> team of marketing experts </span> that deeply care
+            about what we do.
+          </p>
+          <p className="text">
+            Our unique blend of
+            <span> technical, creative and international expertise </span>
+            guarantees that we have the very best staff ready to make something
+            exceptional happen for your brand.
+          </p>
+          <p className="text">
+            With <span> over 25 years </span> of industry experience, our
+            leadership team ensures a smooth running of our global operations.
+          </p>
           <Team items={members} />
         </section>
       </div>

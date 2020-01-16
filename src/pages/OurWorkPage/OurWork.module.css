@@ -6,15 +6,17 @@
   /* margin-left: -66%; */
 }
 
-h2 {
-  display: block;
+.mainTitle {
+  font-size: 42px;
+  display: flex;
   text-transform: uppercase;
   padding: 140px 0 20px 0;
   font-family: 'Raleway', sans-serif;
+  font-weight: 600;
 }
 
 .introText {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .textWrapper {
@@ -27,11 +29,6 @@ h2 {
   line-height: 1.14em;
   color: #1c1b20;
   margin-bottom: 20px;
-}
-
-span {
-  font-family: 'Libre Baskerville', serif;
-  color: #c99e67;
 }
 
 .ourWork {

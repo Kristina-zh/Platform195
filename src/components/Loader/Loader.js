@@ -6,11 +6,11 @@ const LoaderComponent = () => {
   return (
     <div className={s.loader}>
       <Loader
-        type="Plane"
+        type="Audio"
         color="white"
         height={100}
         width={100}
-        timeout={3000}
+        // timeout={3000}
       />
     </div>
   );

@@ -4,10 +4,10 @@ import s from './OurWork.module.css';
 const OurWorkPage = ({ items }) => {
   return (
     <>
-      <section className={s.intro}>
+      <section className="intro">
         <div className="container">
-          <h2>Our work</h2>
-          <p className={s.introText}>Case Studies</p>
+          <h2 className="mainTitle">Our work</h2>
+          <p className="introText">Case Studies</p>
         </div>
       </section>
       <div className="container">

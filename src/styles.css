@@ -15,10 +15,7 @@ body {
   line-height: 24px;
   font-family: Poppins;
   margin-top: 70px;
-}
-
-h2 {
-  font-size: 35px;
+  min-width: 320px;
 }
 
 @media (min-width: 1280px) {
@@ -33,6 +30,7 @@ ul {
 
 .container {
   max-width: 90%;
+  /* min-width: 320px; */
   margin: 0 auto;
 }
 
@@ -89,4 +87,58 @@ button {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+}
+
+/* page title */
+
+.intro {
+  height: 250px;
+  background-color: black;
+  display: flex;
+  color: white;
+  position: relative;
+}
+
+.intro__div {
+  position: absolute;
+  left: 0;
+  padding-left: 5%;
+}
+
+.mainTitle {
+  font-size: 42px;
+  width: 100%;
+  margin-left: 0;
+  display: block;
+  text-transform: uppercase;
+  padding: 140px 0 20px 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.introText {
+  font-size: 16px;
+}
+
+/* text */
+
+.textWrapper {
+  padding-top: 100px;
+}
+
+.text {
+  font-family: 'Khula', sans-serif;
+  font-size: 30px;
+  line-height: 1.3em;
+  color: #1c1b20;
+  margin-bottom: 30px;
+}
+
+.text:last-of-type {
+  margin-bottom: 0;
+}
+
+span {
+  font-family: 'Libre Baskerville', serif;
+  color: #c99e67;
 }

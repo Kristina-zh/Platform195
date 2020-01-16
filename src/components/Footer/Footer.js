@@ -11,7 +11,7 @@ const Footer = () => {
       <div className={s.footerWrapper}>
         <img className={s.logo} src={logo} alt="white logo" height="60px" />
         <ul className={s.socials}>
-          <li>
+          <li className={s.socialsItem}>
             <a
               className={s.socialsLink}
               href="https://www.instagram.com/platform_195/?hl=en"
@@ -20,7 +20,7 @@ const Footer = () => {
             </a>
           </li>
 
-          <li>
+          <li className={s.socialsItem}>
             <a
               className={s.socialsLink}
               href="https://www.linkedin.com/company/platform-195?trk=public_profile_topcard_current_company"
@@ -28,7 +28,7 @@ const Footer = () => {
               <Linkedin width={20} height={20} />
             </a>
           </li>
-          <li>
+          <li className={s.socialsItem}>
             <a className={s.socialsLink} href="https://vimeo.com/user80091598">
               <Vimeo width={20} height={20} />
             </a>

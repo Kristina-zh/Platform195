@@ -10,23 +10,28 @@
 .footerWrapper {
   position: absolute;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 40px;
   left: 50%;
   transform: translateX(-50%);
-  /* width: 400px; */
 }
 
 .socials {
   display: flex;
-  justify-content: space-between;
-  width: 200px;
-  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.socialsItem {
+  height: 100%;
+  margin-right: 20px;
+}
+
+.socialsItem:last-of-type {
+  margin-right: 0px;
 }
 
 .socialsLink {
   display: block;
-  height: 20px;
-  padding-right: 0;
   fill: white;
   width: 20px;
   height: 20px;

@@ -1,27 +1,59 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd4acd4bf9cb554802be944c470ce0c8",
+    "revision": "6e83a32330c50b7730e76c722573168d",
     "url": "/Platform195/index.html"
   },
   {
-    "revision": "27d0141e3c9429e063fb",
-    "url": "/Platform195/static/css/2.f62597ba.chunk.css"
+    "revision": "d4048de4679f6882420c",
+    "url": "/Platform195/static/css/2.c1532ac9.chunk.css"
   },
   {
-    "revision": "d0e649f379842c4cb790",
-    "url": "/Platform195/static/css/main.fa59a5aa.chunk.css"
+    "revision": "300728b589724272ae48",
+    "url": "/Platform195/static/css/4.838d358e.chunk.css"
   },
   {
-    "revision": "27d0141e3c9429e063fb",
-    "url": "/Platform195/static/js/2.17cd3507.chunk.js"
+    "revision": "ed6d02be5beba66a1fe3",
+    "url": "/Platform195/static/css/5.26271664.chunk.css"
   },
   {
-    "revision": "d0e649f379842c4cb790",
-    "url": "/Platform195/static/js/main.a6437936.chunk.js"
+    "revision": "93002c7af1cd579a2fb3",
+    "url": "/Platform195/static/css/6.1c740ebb.chunk.css"
   },
   {
-    "revision": "fbcd1fbd7449facf6ad8",
-    "url": "/Platform195/static/js/runtime-main.c420199f.js"
+    "revision": "02f3bc01664255373835",
+    "url": "/Platform195/static/css/main.6d443bf1.chunk.css"
+  },
+  {
+    "revision": "d4048de4679f6882420c",
+    "url": "/Platform195/static/js/2.2891d063.chunk.js"
+  },
+  {
+    "revision": "6bba2cbb79c07f75791e",
+    "url": "/Platform195/static/js/3.ccd6ca1f.chunk.js"
+  },
+  {
+    "revision": "300728b589724272ae48",
+    "url": "/Platform195/static/js/4.4afe11dc.chunk.js"
+  },
+  {
+    "revision": "ed6d02be5beba66a1fe3",
+    "url": "/Platform195/static/js/5.d9c7d200.chunk.js"
+  },
+  {
+    "revision": "93002c7af1cd579a2fb3",
+    "url": "/Platform195/static/js/6.a233233c.chunk.js"
+  },
+  {
+    "revision": "ee33e06d76dd148712ba",
+    "url": "/Platform195/static/js/7.4c440dac.chunk.js"
+  },
+  {
+    "revision": "02f3bc01664255373835",
+    "url": "/Platform195/static/js/main.13380b3b.chunk.js"
+  },
+  {
+    "revision": "e580527ea075d7437097",
+    "url": "/Platform195/static/js/runtime-main.e1ff43c9.js"
   },
   {
     "revision": "4a160630c87d500399d50a7798803630",

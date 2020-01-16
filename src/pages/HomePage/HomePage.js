@@ -21,18 +21,17 @@ const HomePage = () => {
       <section className="container">
         <div className={s.textWrapper}>
           <p className={s.text}>
-            We build media platforms and creative solutions that work together
-            to deliver <span>successful campaigns</span>. By bringing together
-            creative expertise, media solutions and data insight, we ensure our
-            projects <span>drive profitability</span>.
+            We build <span> media platforms </span> and{' '}
+            <span> creative solutions </span> that work together to deliver
+            successful campaigns.
           </p>
           <p className={s.text}>
-            There is <span>no agency</span> that <span>specialises</span> in
-            travel at the scale we do.
+            By bringing together creative expertise, media solutions and data
+            insight, we ensure our projects <span>drive profitability</span>.
           </p>
         </div>
       </section>
-      <section>
+      <section className={s.video}>
         <ul className={s.videoList}>
           <li className={s.videoItem}>
             <div className={s.overlayImg}>

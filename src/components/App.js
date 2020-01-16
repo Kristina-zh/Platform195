@@ -40,18 +40,20 @@ export default class App extends Component {
       <>
         {showSlide && <FirstSlide />}
         {showSlide === false && <Navigation />}
-        <Switch>
-          <Route path={routes.HOME} exact component={HomePage} />
-          <Route path={routes.OUR_TEAM} component={OurTeamPage} />
-          <Route
-            path={routes.OUR_WORK}
-            component={OurWorkPage}
-            items={videos}
-          />
-          <Route path={routes.CONTACT} component={ContactPage} />
-          <Redirect to="/" />
-        </Switch>
-        <Footer />
+        {showSlide === false && (
+          <Switch>
+            <Route path={routes.HOME} exact component={HomePage} />
+            <Route path={routes.OUR_TEAM} component={OurTeamPage} />
+            <Route
+              path={routes.OUR_WORK}
+              component={OurWorkPage}
+              items={videos}
+            />
+            <Route path={routes.CONTACT} component={ContactPage} />
+            <Redirect to="/" />
+          </Switch>
+        )}
+        {showSlide === false && <Footer />}
       </>
     );
   }

@@ -30,12 +30,12 @@
 }
 
 .text {
-  font-size: 18px;
-  line-height: 1.14em;
+  font-size: 20px;
+  line-height: 1.24em;
   color: white;
-  margin-left: 1.5%;
+  margin-left: 1%;
   position: absolute;
-  width: 100px;
+  width: 120px;
   top: 50%;
   transform: translateY(-50%);
   font-family: 'Raleway', sans-serif;

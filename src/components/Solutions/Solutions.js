@@ -34,7 +34,7 @@ export default class Solutions extends Component {
           src={imageBg}
           alt=""
           height="740px"
-          // width="375px"
+          min-width="320px"
         />
         <div className={s.whiteOverlay}>
           <ul className={s.whiteList}>

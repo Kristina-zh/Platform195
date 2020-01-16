@@ -23,22 +23,22 @@ export default class SliderWrapper extends Component {
       <Slider {...settings} autoplay>
         <div className={s.div}>
           <p className={s.text}>
-            World-class <span>creativity</span> coupled with{' '}
-            <span>cutting edge</span>
+            We're a marketing consultancy for the
+            <span> travel & leisure </span>industry
           </p>
           <img className={s.image} src={slider1} alt="" width="500px" />
         </div>
         <div className={s.div}>
           <p className={s.text}>
-            Data-fuelled <span>technology</span> and{' '}
-            <span>media solutions</span>
+            All our <span>creative</span> is born from <span> data-led </span>
+            insights
           </p>
           <img className={s.image} src={slider3} alt="" width="500px" />
         </div>
         <div className={s.div}>
           <p className={s.text}>
-            Delivered by a team of people who <span>care passionately</span>{' '}
-            about what we do
+            Delivering campaigns and media solutions that{' '}
+            <span> truly work </span>
           </p>
           <img className={s.image} src={slider2} alt="" width="500px" />
         </div>

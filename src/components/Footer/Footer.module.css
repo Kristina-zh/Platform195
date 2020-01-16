@@ -1,6 +1,6 @@
 .footer {
   display: block;
-  height: 600px;
+  height: 250px;
   background-color: black;
   align-items: center;
   width: 100%;
@@ -10,7 +10,7 @@
 .footerWrapper {
   position: absolute;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
   left: 50%;
   transform: translateX(-50%);
   /* width: 400px; */
@@ -37,5 +37,10 @@
 
 .logo {
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

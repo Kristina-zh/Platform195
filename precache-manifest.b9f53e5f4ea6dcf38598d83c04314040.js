@@ -1,71 +1,63 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7fe81d7716246f59dc2264748cbc715",
+    "revision": "ca25b2441852a5e5c2701437edfb4e39",
     "url": "/Platform195/index.html"
   },
   {
-    "revision": "7659bf31e7fde3479f95",
-    "url": "/Platform195/static/css/2.c1532ac9.chunk.css"
+    "revision": "809f1e3ed0e46bbb30d3",
+    "url": "/Platform195/static/css/3.33b503ea.chunk.css"
   },
   {
-    "revision": "9bb57b12667850ba8f3e",
-    "url": "/Platform195/static/css/4.838d358e.chunk.css"
+    "revision": "76defe2fddcea517d950",
+    "url": "/Platform195/static/css/4.f62597ba.chunk.css"
   },
   {
-    "revision": "d0bb907dc36a9feacc82",
+    "revision": "f7b38cbe74502f23f47e",
     "url": "/Platform195/static/css/5.c428c581.chunk.css"
   },
   {
-    "revision": "77cce0c0da2130ad9760",
+    "revision": "fdfaf7e931e19fefda75",
     "url": "/Platform195/static/css/6.865a5aeb.chunk.css"
   },
   {
-    "revision": "2bbba245f71eab42dcf3",
-    "url": "/Platform195/static/css/main.62f6e074.chunk.css"
+    "revision": "e72c3212e9b1ba8067e6",
+    "url": "/Platform195/static/css/main.7c553857.chunk.css"
   },
   {
-    "revision": "7659bf31e7fde3479f95",
-    "url": "/Platform195/static/js/2.e8f07102.chunk.js"
+    "revision": "8e54643e931cd5232a76",
+    "url": "/Platform195/static/js/2.80c735ff.chunk.js"
   },
   {
-    "revision": "ceb0fdaea4edff5f87ee",
-    "url": "/Platform195/static/js/3.b6d7999b.chunk.js"
+    "revision": "809f1e3ed0e46bbb30d3",
+    "url": "/Platform195/static/js/3.01a38f01.chunk.js"
   },
   {
-    "revision": "9bb57b12667850ba8f3e",
-    "url": "/Platform195/static/js/4.36e996cb.chunk.js"
+    "revision": "76defe2fddcea517d950",
+    "url": "/Platform195/static/js/4.f49c48a8.chunk.js"
   },
   {
-    "revision": "d0bb907dc36a9feacc82",
-    "url": "/Platform195/static/js/5.a85832d5.chunk.js"
+    "revision": "f7b38cbe74502f23f47e",
+    "url": "/Platform195/static/js/5.0d64be2b.chunk.js"
   },
   {
-    "revision": "77cce0c0da2130ad9760",
-    "url": "/Platform195/static/js/6.dcf5a907.chunk.js"
+    "revision": "fdfaf7e931e19fefda75",
+    "url": "/Platform195/static/js/6.42cd62d2.chunk.js"
   },
   {
-    "revision": "8130ad501235a52750fa",
-    "url": "/Platform195/static/js/7.8dc282e9.chunk.js"
+    "revision": "4fc35df2a3ea8bd8b36d",
+    "url": "/Platform195/static/js/7.91526831.chunk.js"
   },
   {
-    "revision": "2bbba245f71eab42dcf3",
-    "url": "/Platform195/static/js/main.f882ccea.chunk.js"
+    "revision": "e72c3212e9b1ba8067e6",
+    "url": "/Platform195/static/js/main.3a1d353a.chunk.js"
   },
   {
-    "revision": "c7c6ab88fb18aceb0493",
-    "url": "/Platform195/static/js/runtime-main.254e74b8.js"
+    "revision": "62f6084d03dfe1dce86b",
+    "url": "/Platform195/static/js/runtime-main.8dd87c9f.js"
   },
   {
     "revision": "4a160630c87d500399d50a7798803630",
     "url": "/Platform195/static/media/1356435001.4a160630.mp4"
-  },
-  {
-    "revision": "79e1bedd64d83dee9ca3ad5221a9d77b",
-    "url": "/Platform195/static/media/48f3497593683e5a30d7f20e6027ab52.79e1bedd.jpg"
-  },
-  {
-    "revision": "79e0855493dd6563b1abde5370b90f80",
-    "url": "/Platform195/static/media/500x309.79e08554.jpg"
   },
   {
     "revision": "e2c9bdcbbbd800e60bf3f6be9f069be2",
@@ -76,56 +68,84 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Platform195/static/media/Alan.1535f8ac.jpeg"
   },
   {
+    "revision": "79e0855493dd6563b1abde5370b90f80",
+    "url": "/Platform195/static/media/Amresoris.79e08554.jpg"
+  },
+  {
     "revision": "cef7bb396109f8d84d186a723f981bd3",
     "url": "/Platform195/static/media/Anthony.cef7bb39.jpg"
+  },
+  {
+    "revision": "79e1bedd64d83dee9ca3ad5221a9d77b",
+    "url": "/Platform195/static/media/Bulgaria.79e1bedd.jpg"
   },
   {
     "revision": "4ccb542ef6d95703e4d1034576c9bfdc",
     "url": "/Platform195/static/media/Cuba.4ccb542e.png"
   },
   {
-    "revision": "6645234431cda9df9c1320930719b0ad",
-    "url": "/Platform195/static/media/HOTELS_RESORTS_IBEROSTAR.66452344.jpg"
+    "revision": "27c6d1d760f8ae4a536ad2e71f13f8ac",
+    "url": "/Platform195/static/media/Gaviota.27c6d1d7.jpg"
+  },
+  {
+    "revision": "685e82568157d9801f812ebaf9094ce7",
+    "url": "/Platform195/static/media/Greece.685e8256.jpg"
   },
   {
     "revision": "58129c8079bb28665cbf47ba9ef655b1",
     "url": "/Platform195/static/media/Hotelimg2.58129c80.png"
   },
   {
-    "revision": "27c6d1d760f8ae4a536ad2e71f13f8ac",
-    "url": "/Platform195/static/media/LOGO-GAVIOTA-VERTICAL-1-884x1024.27c6d1d7.jpg"
+    "revision": "6645234431cda9df9c1320930719b0ad",
+    "url": "/Platform195/static/media/Iberostar.66452344.jpg"
+  },
+  {
+    "revision": "a115ffff90e83fddf28c279bb11d4fd5",
+    "url": "/Platform195/static/media/Jerusalem.a115ffff.png"
   },
   {
     "revision": "0d60102907b5f2a837966d1c2e6f2872",
-    "url": "/Platform195/static/media/Malta_Tourism-Authority.0d601029.jpg"
+    "url": "/Platform195/static/media/Malta.0d601029.jpg"
   },
   {
     "revision": "43f65ead3df72caef1bc0a0a80aaf3f0",
     "url": "/Platform195/static/media/Mark.43f65ead.jpg"
   },
   {
-    "revision": "d85a9f966924f3a49bdb61fd38bc57bf",
-    "url": "/Platform195/static/media/PZ1Z3P4-.d85a9f96.jpg"
+    "revision": "c6f9458704b3f52ceb040e6379305d8d",
+    "url": "/Platform195/static/media/Mexico.c6f94587.png"
+  },
+  {
+    "revision": "7d2e9f3a353dece71a7074738c7cb58d",
+    "url": "/Platform195/static/media/PalaceResorts.7d2e9f3a.jpg"
+  },
+  {
+    "revision": "dd4586056e3fa3a7abea245f2ca1191b",
+    "url": "/Platform195/static/media/Paloma.dd458605.jpg"
   },
   {
     "revision": "28c852d482352413c288144f3b9fa242",
-    "url": "/Platform195/static/media/RAKTDA-2016-LOGO-ENGLISH2-1024x1024.28c852d4.jpg"
+    "url": "/Platform195/static/media/Raktda.28c852d4.jpg"
+  },
+  {
+    "revision": "d85a9f966924f3a49bdb61fd38bc57bf",
+    "url": "/Platform195/static/media/Sanyaz.d85a9f96.jpg"
+  },
+  {
+    "revision": "5d8b0d15a9b2f865a33f8c47d300664c",
+    "url": "/Platform195/static/media/Singapore.5d8b0d15.jpeg"
   },
   {
     "revision": "9168f7f3a899177d386fc966bfe4b709",
     "url": "/Platform195/static/media/Stuart.9168f7f3.jpg"
   },
   {
-    "revision": "c6f9458704b3f52ceb040e6379305d8d",
-    "url": "/Platform195/static/media/Visit-Mexico-logo-880x654.c6f94587.png"
+    "revision": "9e04d7fb72eed9d6aac1a8029aa9d2e3",
+    "url": "/Platform195/static/media/USA.9e04d7fb.png"
   },
   {
     "revision": "ed655d7ecc5eb4983b2d520fed7981a9",
     "url": "/Platform195/static/media/agency.ed655d7e.jpeg"
-  },
-  {
-    "revision": "5d8b0d15a9b2f865a33f8c47d300664c",
-    "url": "/Platform195/static/media/b1c5ce0896bcd83deddd6268507383b0.5d8b0d15.jpeg"
   },
   {
     "revision": "0e1a20f4220a58e1fcfbb4d14e4224ea",
@@ -136,28 +156,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Platform195/static/media/burger.52b4481f.svg"
   },
   {
-    "revision": "9e04d7fb72eed9d6aac1a8029aa9d2e3",
-    "url": "/Platform195/static/media/cff9babaf777966258c74b96381bf9e7.9e04d7fb.png"
-  },
-  {
     "revision": "c057d500fd72706e52f87b057eaeb883",
     "url": "/Platform195/static/media/instagram.c057d500.svg"
   },
   {
     "revision": "b6d9ba70a9327dd1a5894c7141563f5e",
     "url": "/Platform195/static/media/linkedin.b6d9ba70.svg"
-  },
-  {
-    "revision": "685e82568157d9801f812ebaf9094ce7",
-    "url": "/Platform195/static/media/logo_visit_greece_copy.685e8256.jpg"
-  },
-  {
-    "revision": "dd4586056e3fa3a7abea245f2ca1191b",
-    "url": "/Platform195/static/media/plm8.dd458605.jpg"
-  },
-  {
-    "revision": "7d2e9f3a353dece71a7074738c7cb58d",
-    "url": "/Platform195/static/media/punta-cana-cancun-moon-palace-golf-spa-resort-hotel-summer-travel-logo.7d2e9f3a.jpg"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
@@ -186,10 +190,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ebb5e162aa9e1416e27340bd4151bfd1",
     "url": "/Platform195/static/media/slider3.ebb5e162.jpg"
-  },
-  {
-    "revision": "a115ffff90e83fddf28c279bb11d4fd5",
-    "url": "/Platform195/static/media/top_logo_eng.a115ffff.png"
   },
   {
     "revision": "3ebfae65cd6ffebed385a5bbf11ef209",

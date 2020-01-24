@@ -3,7 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import Loadable from 'react-loadable';
 import Loader from './Loader/Loader';
 import FirstSlide from './FirstSlide/FirstSlide';
-import Navigation from './Navigation/Navigation';
+import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import routes from '../routes';
 import '../styles.css';
@@ -36,7 +36,7 @@ export default class App extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ showSlide: false });
-    }, 30);
+    }, 30000);
   }
 
   render() {
@@ -44,7 +44,7 @@ export default class App extends Component {
     return (
       <>
         {showSlide && <FirstSlide />}
-        {showSlide === false && <Navigation />}
+        {showSlide === false && <Header />}
         {showSlide === false && (
           <Switch>
             <Route path={routes.HOME} exact component={AsyncHomePage} />
@@ -55,7 +55,6 @@ export default class App extends Component {
           </Switch>
         )}
         {showSlide === false && <Footer />}
-        {/* {isLoading && <Loader />} */}
       </>
     );
   }

@@ -4,11 +4,22 @@ import s from './FirstSlide.module.css';
 
 const FirstSlide = () => {
   return (
-    <div className={s.div}>
-      <img className={s.logo} src={logoBlack} alt="" height="100px" />
-      <div className={s.left}></div>
-      <p className={s.title}>where your journey begins</p>
-      <div className={s.right}></div>
+    <div className={s.firstSlide}>
+      <div className={s.firstSlideDiv}>
+        <img
+          className={s.firstSlideLogo}
+          src={logoBlack}
+          alt="black logo"
+          height="100px"
+        />
+        {/* <div className={s.text}>
+          <div className={s.left}>
+          <hr className={s.hr} />
+          </div> */}
+        <p className={s.firstSlideTitle}>where your journey begins</p>
+        {/* <div className={s.right}></div>
+        </div> */}
+      </div>
     </div>
   );
 };

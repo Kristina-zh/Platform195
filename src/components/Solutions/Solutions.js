@@ -16,9 +16,13 @@ export default class Solutions extends Component {
     let menu = [];
     for (let i = 0; i < items.length; i++) {
       menu.push(
-        <a className={s.whiteLink} onClick={() => this.onClick(i)}>
-          {items[i].title}
-        </a>,
+        <>
+          <li className={s.whiteItem}>
+            <a className={s.whiteLink} onClick={() => this.onClick(i)}>
+              {items[i].title}
+            </a>
+          </li>
+        </>,
       );
     }
     return menu;
@@ -29,13 +33,7 @@ export default class Solutions extends Component {
     const { items } = this.props;
     return (
       <div className={s.agencyDiv}>
-        <img
-          className={s.imgBg}
-          src={imageBg}
-          alt=""
-          height="740px"
-          min-width="320px"
-        />
+        {/* <img className={s.imgBg} src={imageBg} alt="" height="740px" /> */}
         <div className={s.whiteOverlay}>
           <ul className={s.whiteList}>
             <div>{this.createMenu()}</div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Player } from 'video-react';
+// import { Player } from 'video-react';
 import SliderWrapper from '../../components/Slider/Slider';
 import OurExperience from '../../components/OurExperience/OurExperience';
-import logos from '../../components/OurExperience/logos';
+import logos from '../../utils/logos';
 import routes from '../../routes';
 import image1 from '../../img/Cuba.png';
 import image2 from '../../img/Hotelimg2.png';
@@ -12,7 +12,7 @@ import video2 from '../../videos/981891778.mp4';
 // import 'node_modules/video-react/dist/video-react.css';
 import s from './HomePage.module.css';
 import Solutions from '../../components/Solutions/Solutions';
-import solutions from '../../components/Solutions/solutionsArr';
+import solutions from '../../utils/solutionsArr';
 
 const HomePage = () => {
   return (

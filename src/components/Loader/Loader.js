@@ -6,7 +6,7 @@ const LoaderComponent = () => {
   return (
     <div className={s.loader}>
       <Loader
-        type="Audio"
+        type="Puff"
         color="white"
         height={100}
         width={100}

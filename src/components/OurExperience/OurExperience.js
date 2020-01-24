@@ -5,7 +5,7 @@ const OurExperience = ({ logos }) => {
   return (
     <ul className={s.teamList}>
       {logos.map(el => (
-        <li key={`${el.id}`}>
+        <li className={s.logoItem} key={`${el.id}`}>
           <img
             className={s.logoImg}
             src={el.picture}

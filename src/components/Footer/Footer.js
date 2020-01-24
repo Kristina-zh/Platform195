@@ -15,6 +15,7 @@ const Footer = () => {
             <a
               className={s.socialsLink}
               href="https://www.instagram.com/platform_195/?hl=en"
+              rel="noreferrer noopener"
             >
               <Instagram width={20} height={20} />
             </a>
@@ -24,12 +25,17 @@ const Footer = () => {
             <a
               className={s.socialsLink}
               href="https://www.linkedin.com/company/platform-195?trk=public_profile_topcard_current_company"
+              rel="noreferrer noopener"
             >
               <Linkedin width={20} height={20} />
             </a>
           </li>
           <li className={s.socialsItem}>
-            <a className={s.socialsLink} href="https://vimeo.com/user80091598">
+            <a
+              className={s.socialsLink}
+              href="https://vimeo.com/user80091598"
+              rel="noreferrer noopener"
+            >
               <Vimeo width={20} height={20} />
             </a>
           </li>

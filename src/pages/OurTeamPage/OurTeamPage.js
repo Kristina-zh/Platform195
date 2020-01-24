@@ -1,6 +1,6 @@
 import React from 'react';
 import Team from '../../components/Team/Team';
-import members from '../../components/Team/teamArr';
+import members from '../../utils/teamArr';
 
 const OurTeam = () => {
   return (

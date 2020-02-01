@@ -29,7 +29,7 @@
 
 .list {
   flex-direction: column;
-  padding: 5%;
+  padding: 0 5%;
 }
 
 .listItem {
@@ -52,6 +52,14 @@
 
 .listItem:nth-of-type(4) {
   border-bottom: none;
+}
+
+a:hover {
+  color: #c99e67;
+}
+
+.active {
+  color: #c99e67;
 }
 
 /* animation */

@@ -33,12 +33,12 @@ const logos = [
   {
     id: '1004',
     picture: Logo4,
-    height: 90,
+    height: 80,
   },
   {
     id: '1005',
     picture: Logo5,
-    height: 90,
+    height: 80,
   },
   {
     id: '1006',
@@ -53,37 +53,37 @@ const logos = [
   {
     id: '1008',
     picture: Logo8,
-    height: 90,
+    height: 80,
   },
   {
     id: '1009',
     picture: Logo9,
-    height: 90,
+    height: 80,
   },
   {
     id: '1010',
     picture: Logo10,
-    height: 60,
+    height: 50,
   },
   {
     id: '1011',
     picture: Logo11,
-    height: 60,
+    height: 50,
   },
   {
     id: '1012',
     picture: Logo12,
-    height: 90,
+    height: 80,
   },
   {
     id: '1013',
     picture: Logo13,
-    height: 90,
+    height: 80,
   },
   {
     id: '1014',
     picture: Logo14,
-    height: 60,
+    height: 90,
   },
   {
     id: '1015',

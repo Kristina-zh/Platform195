@@ -5,7 +5,6 @@ import Slider from 'react-slick';
 import slider1 from '../../assets/img/slider/slider1.jpg';
 import slider2 from '../../assets/img/slider/slider2.jpg';
 import slider3 from '../../assets/img/slider/slider3.jpg';
-
 import s from './Slider.module.css';
 
 export default class SliderWrapper extends Component {
@@ -24,13 +23,14 @@ export default class SliderWrapper extends Component {
         <div className={s.div}>
           <p className={s.text}>
             We're a marketing consultancy for the
-            <span> travel & leisure </span>industry
+            <span className={s.spanSlider}> travel & leisure </span>industry
           </p>
           <img className={s.image} src={slider1} alt="" width="500px" />
         </div>
         <div className={s.div}>
           <p className={s.text}>
-            All our <span>creative</span> is born from <span> data-led </span>
+            All our <span className={s.spanSlider}>creative</span> is born from{' '}
+            <span> data-led </span>
             insights
           </p>
           <img className={s.image} src={slider3} alt="" width="500px" />
@@ -38,7 +38,7 @@ export default class SliderWrapper extends Component {
         <div className={s.div}>
           <p className={s.text}>
             Delivering campaigns and media solutions that{' '}
-            <span> truly work </span>
+            <span className={s.spanSlider}> truly work </span>
           </p>
           <img className={s.image} src={slider2} alt="" width="500px" />
         </div>

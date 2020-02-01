@@ -1,7 +1,7 @@
 .firstSlide {
   height: 100vh;
   margin: 0 auto;
-  background-color: black;
+  color: var(--bg-color-black);
   position: relative;
   z-index: 20000;
   margin-top: -70px;
@@ -29,11 +29,11 @@
   top: 50%;
   text-align: center;
   size: 32;
-  color: white;
+  color: var(--color-white);
 }
 
 .firstSlideTitle {
   font-size: 16px;
   padding: 0 5px;
-  color: white;
+  color: var(--color-white);
 }

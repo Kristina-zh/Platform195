@@ -74,8 +74,7 @@
   }
 }
 
-span {
+.spanSlider {
   font-family: 'Libre Baskerville', serif;
-  font-weight: 400;
-  color: #c99e67;
+  color: var(--color-orange);
 }

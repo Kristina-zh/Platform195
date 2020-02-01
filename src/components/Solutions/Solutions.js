@@ -33,7 +33,7 @@ export default class Solutions extends Component {
     const { items } = this.props;
     return (
       <div className={s.agencyDiv}>
-        {/* <img className={s.imgBg} src={imageBg} alt="" height="740px" /> */}
+        <img className={s.imgBg} src={imageBg} alt="" height="870px" />
         <div className={s.whiteOverlay}>
           <ul className={s.whiteList}>
             <div>{this.createMenu()}</div>

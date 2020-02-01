@@ -1,7 +1,5 @@
 .agencyDiv {
   position: relative;
-  width: 100%;
-  background: red;
 }
 
 .whiteOverlay {
@@ -11,7 +9,6 @@
   transform: translateX(-50%);
   top: 30px;
   left: 50%;
-  z-index: 2;
   padding: 20px;
 }
 
@@ -31,7 +28,7 @@
   margin: 0;
 }
 
-.whiteLink--active {
+.whiteLink-active {
   border-bottom: 3px solid #c99e67;
   color: #c99e67;
 }
@@ -53,5 +50,4 @@
 .imgBg {
   width: 100%;
   object-fit: cover;
-  max-height: 100%;
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eff69126c2fd7d18b7b51bc18b189d31",
+    "revision": "e3e647eedf1e6220d4f2bb7d9d4cca0f",
     "url": "/Platform195/index.html"
   },
   {
-    "revision": "f05e1bb6f21f9aa85232",
-    "url": "/Platform195/static/css/3.535ef335.chunk.css"
+    "revision": "20982e9e7ce992545a7a",
+    "url": "/Platform195/static/css/3.d6c89819.chunk.css"
   },
   {
     "revision": "5528eb904a13a35e6b5b",
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Platform195/static/css/6.865a5aeb.chunk.css"
   },
   {
-    "revision": "4959cec4dd8ae9941baa",
-    "url": "/Platform195/static/css/main.bec07367.chunk.css"
+    "revision": "af83c15418348d4e92ce",
+    "url": "/Platform195/static/css/main.40fc1194.chunk.css"
   },
   {
     "revision": "e8aa7e1878ee64683966",
     "url": "/Platform195/static/js/2.39ccca36.chunk.js"
   },
   {
-    "revision": "f05e1bb6f21f9aa85232",
-    "url": "/Platform195/static/js/3.ea9e225f.chunk.js"
+    "revision": "20982e9e7ce992545a7a",
+    "url": "/Platform195/static/js/3.b1886adc.chunk.js"
   },
   {
     "revision": "5528eb904a13a35e6b5b",
@@ -48,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Platform195/static/js/7.91526831.chunk.js"
   },
   {
-    "revision": "4959cec4dd8ae9941baa",
+    "revision": "af83c15418348d4e92ce",
     "url": "/Platform195/static/js/main.1b642113.chunk.js"
   },
   {
-    "revision": "96bb09810ed00b55794d",
-    "url": "/Platform195/static/js/runtime-main.318d9e0f.js"
+    "revision": "5f707e7d11b64311cd01",
+    "url": "/Platform195/static/js/runtime-main.36df4ba4.js"
   },
   {
     "revision": "1535f8ac780c4ef2a6a5f45905cf1093",

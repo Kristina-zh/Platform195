@@ -34,7 +34,7 @@
 
 .listItem {
   border-bottom: 1px #aaa9a9 solid;
-  width: 100%;
+  /* width: 100%; */
   margin-bottom: 0;
 }
 

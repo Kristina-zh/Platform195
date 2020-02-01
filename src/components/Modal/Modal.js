@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import routes from '../../routes';
 import { CSSTransition } from 'react-transition-group';
-import { ReactComponent as Burger } from '../../icons/burger.svg';
+import { ReactComponent as Burger } from '../../assets/icons/burger.svg';
 import s from './Modal.module.css';
 
 export default class Modal extends Component {

@@ -1,8 +1,8 @@
 import React from 'react';
-import { ReactComponent as Instagram } from '../../icons/instagram.svg';
-import { ReactComponent as Linkedin } from '../../icons/linkedin.svg';
-import { ReactComponent as Vimeo } from '../../icons/vimeo.svg';
-import logo from '../../img/blackMainLogo.jpg';
+import { ReactComponent as Instagram } from '../../assets/icons/instagram.svg';
+import { ReactComponent as Linkedin } from '../../assets/icons/linkedin.svg';
+import { ReactComponent as Vimeo } from '../../assets/icons/vimeo.svg';
+import logo from '../../assets/img/blackMainLogo.jpg';
 import s from './Footer.module.css';
 
 const Footer = () => {

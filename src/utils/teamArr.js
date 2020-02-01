@@ -1,7 +1,7 @@
-import Member1 from '../img/team/Stuart.jpg';
-import Member2 from '../img/team/Mark.jpg';
-import Member3 from '../img/team/Alan.jpeg';
-import Member4 from '../img/team/Anthony.jpg';
+import Member1 from '../assets/img/team/Stuart.jpg';
+import Member2 from '../assets/img/team/Mark.jpg';
+import Member3 from '../assets/img/team/Alan.jpeg';
+import Member4 from '../assets/img/team/Anthony.jpg';
 
 const teamArr = [
   {

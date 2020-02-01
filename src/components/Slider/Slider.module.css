@@ -30,7 +30,7 @@
 }
 
 .text {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.24em;
   color: white;
   margin-left: 1%;
@@ -42,7 +42,7 @@
   font-weight: 900;
 }
 
-@media (min-width: 380px) {
+@media (min-width: 375px) {
   .text {
     font-size: 20px;
   }

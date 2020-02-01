@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import Modal from '../Modal/Modal';
-import blackLogo from '../../img/blackMainLogo.jpg';
-import whiteLogo from '../../img/whiteMainLogo.jpg';
+import blackLogo from '../../assets/img/blackMainLogo.jpg';
+import whiteLogo from '../../assets/img/whiteMainLogo.jpg';
 import windowWidth from '../../utils/windowWidth';
 import routes from '../../routes';
 import s from './Header.module.css';

@@ -1,0 +1,11 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-orange: #efbb43;
+  --color-text: #1c1b20;
+
+  --bg-color-white: #ffffff;
+  --bg-color-black: #000000;
+  --bg-color-dark-orange: #bd8a14;
+  --bg-color-orange: #efbb43;
+}

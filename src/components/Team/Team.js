@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Box } from '../../icons/linkedin.svg';
+import { ReactComponent as Box } from '../../assets/icons/linkedin.svg';
 import s from '../../pages/OurTeamPage/OurTeamPage.module.css';
 
 const Team = ({ items }) => {

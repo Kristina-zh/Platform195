@@ -2,61 +2,38 @@
   height: 100vh;
   margin: 0 auto;
   background-color: black;
-  color: white;
-  text-align: center;
   position: relative;
-  /* transition: 200ms linear; */
   z-index: 20000;
   margin-top: -70px;
-  padding: 0px 20px;
+  text-align: center;
 }
 
-/* @media (min-width: 1280px) {
-  .firstSlide {
-    padding: 150px 0 150px;
-  }
-} */
-
 .firstSlideDiv {
+  /* transition: 600ms linear; */
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
-.firstSlideLogo {
-  /* padding: 10px 0; */
-}
-
 .text {
-  position: absolute;
-  widthheight: 50px;
+  display: flex;
+}
+
+.textDiv {
+  width: 10%;
+}
+
+.textDivHr {
+  position: relative;
   top: 50%;
-}
-
-.hr {
   text-align: center;
-  width: 75%;
   size: 32;
+  color: white;
 }
 
-.title {
-  width: 100%;
-  position: absolute;
-  left: 50%;
-  top: 48%;
-  transform: translateX(-50%);
+.firstSlideTitle {
   font-size: 16px;
-}
-
-/* .title::before {
-  content: '-';
-  display: inline-block;
-  width: 50px;
-} */
-
-@media (min-width: 1280px) {
-  .title {
-    font-size: 18px;
-  }
+  padding: 0 5px;
+  color: white;
 }

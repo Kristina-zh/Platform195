@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import imageBg from '../../img/agency.jpeg';
+import imageBg from '../../assets/img/agency.jpeg';
 import s from './Solutions.module.css';
 
 export default class Solutions extends Component {

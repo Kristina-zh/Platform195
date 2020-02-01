@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
-import slider1 from '../../img/slider/slider1.jpg';
-import slider2 from '../../img/slider/slider2.jpg';
-import slider3 from '../../img/slider/slider3.jpg';
+import slider1 from '../../assets/img/slider/slider1.jpg';
+import slider2 from '../../assets/img/slider/slider2.jpg';
+import slider3 from '../../assets/img/slider/slider3.jpg';
 
 import s from './Slider.module.css';
 

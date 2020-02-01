@@ -6,7 +6,6 @@ import FirstSlide from './FirstSlide/FirstSlide';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import routes from '../routes';
-import '../styles.css';
 
 const AsyncHomePage = Loadable({
   loader: () => import('../pages/HomePage/HomePage'),
@@ -36,7 +35,7 @@ export default class App extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ showSlide: false });
-    }, 30000);
+    }, 300);
   }
 
   render() {

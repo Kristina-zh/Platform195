@@ -3,7 +3,7 @@
 .button {
   padding: 0;
   border: 0;
-  background-color: white;
+  background-color: var(--bg-color-white);
   cursor: pointer;
   outline: 0;
   margin-top: 14px;
@@ -14,7 +14,7 @@
 }
 
 .button:hover {
-  fill: #c99e67;
+  fill: var(--color-orange);
 }
 
 /* Menu */
@@ -24,7 +24,7 @@
   width: 100%;
   top: 70px;
   left: 0;
-  background-color: #fff;
+  background-color: var(--bg-color-white);
 }
 
 .list {
@@ -55,11 +55,11 @@
 }
 
 a:hover {
-  color: #c99e67;
+  color: var(--color-orange);
 }
 
 .active {
-  color: #c99e67;
+  color: var(--color-orange);
 }
 
 /* animation */

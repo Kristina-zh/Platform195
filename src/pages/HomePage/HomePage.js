@@ -25,9 +25,9 @@ const HomePage = () => {
           insight, we ensure our projects <span>drive profitability</span>.
         </p>
       </section>
-      <section className={s.videoSection}>
-        <ul className={s.videoList}>
-          <li className={s.videoItem}>
+      <section className="videoSection">
+        <ul className="videoList">
+          <li className="videoItem">
             <div className={s.overlayImg}>
               <img
                 src={image1}
@@ -48,7 +48,7 @@ const HomePage = () => {
               {' '}
             </iframe>
           </li>
-          <li className={s.videoItem}>
+          <li className="videoItem">
             <div className={s.overlayImg}>
               <img src={image2} alt="" width="290px" height="170px" />
             </div>

@@ -1,5 +1,5 @@
 .nav {
-  background-color: white;
+  background-color: var(--bg-color-white);
   width: 100%;
   z-index: 5000;
   padding: 10px 0;
@@ -9,7 +9,7 @@
 
 @media (min-width: 1280px) {
   .nav {
-    background-color: black;
+    background-color: var(--bg-color-black);
   }
 }
 
@@ -28,7 +28,7 @@
 /* menu desktop */
 
 .list {
-  background-color: black;
+  background-color: var(--bg-color-black);
   width: 500px;
   height: 20px;
 }
@@ -37,14 +37,14 @@
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
-  color: white;
+  color: var(--color-white);
   transition: color 300ms linear;
 }
 
 a:hover {
-  color: #c99e67;
+  color: var(--color-orange);
 }
 
 .active {
-  color: #c99e67;
+  color: var(--color-orange);
 }

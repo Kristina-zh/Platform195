@@ -1,31 +1,11 @@
 /* section videos */
 
-.videoSection {
-  margin-bottom: 150px;
-}
-
-.videoList {
-  /* display: flex;
-  justify-content: center; */
-  margin: 0 auto;
-}
-
-.videoItem {
-  display: relative;
-  /* margin: 0; */
-  margin-bottom: 30px;
-}
-
-.videoItem:last-of-type {
-  margin-bottom: 50px;
-}
-
 .buttonLink {
   position: relative;
   height: 100%;
   top: 18px;
   text-decoration: none;
-  color: black;
+  color: var(--color-black);
 }
 
 .buttonLink:hover {

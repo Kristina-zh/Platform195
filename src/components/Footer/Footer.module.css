@@ -1,7 +1,7 @@
 .footer {
   display: block;
-  height: 250px;
-  background-color: black;
+  height: calc(100vh - 77px);
+  background-color: var(--bg-color-black);
   align-items: center;
   width: 100%;
   position: relative;
@@ -10,7 +10,7 @@
 .footerWrapper {
   position: absolute;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 50%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -33,13 +33,13 @@
 
 .socialsLink {
   display: block;
-  fill: white;
+  fill: var(--color-white);
   width: 20px;
   height: 20px;
 }
 
 .socialsLink:hover {
-  fill: rgba(202, 160, 104);
+  fill: var(--color-orange);
   transition: color 300ms linear;
 }
 

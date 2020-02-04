@@ -1,7 +1,7 @@
 .div {
   width: 100%;
   height: calc(0.7 * 100vw);
-  background: black;
+  background-color: var(--bg-color-black);
 }
 
 @media (min-width: 1280px) {
@@ -32,7 +32,7 @@
 .text {
   font-size: 18px;
   line-height: 1.24em;
-  color: white;
+  color: var(--color-white);
   margin-left: 1%;
   position: absolute;
   width: 120px;

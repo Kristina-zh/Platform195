@@ -6,31 +6,124 @@ const OurWorkPage = ({ items }) => {
     <>
       <section className="intro">
         <div className="container">
-          <h2 className="mainTitle">Our work</h2>
-          <p className="introText">Case Studies</p>
+          <div className="intro__div">
+            <h2 className="mainTitle">Our work</h2>
+            <p className="introText">Case Studies</p>
+          </div>
         </div>
       </section>
-      <div className="container">
-        <section className={s.ourWork}>
-          <button className="button">Influencer</button>
-          <button className="button">Hotels</button>
-          {/* <ul className={s.itemList}>
-            {items.map(el => (
-              <li className={s.teamItem} key={`${el.id}`}>
-                <picture>
-                  <img className={s.teamImg} src={el.video} alt="default" />
-                  <div className={s.overlay}>
-                    <div>
-                      <h3>{el.title}</h3>
-                      <p className={s.teamOccupation}>{el.type}</p>
-                    </div>
-                  </div>
-                </picture>
-              </li>
-            ))}
-          </ul> */}
-        </section>
-      </div>
+      <section className="videoSection">
+        <ul className="videoList">
+          <li className="videoItem">
+            <iframe
+              title="vimeo-player"
+              src="https://player.vimeo.com/video/340362775"
+              width="290px"
+              height="170px"
+              frameBorder="0"
+              allowFullScreen
+            >
+              {' '}
+            </iframe>
+          </li>
+          <li className="videoItem">
+            <iframe
+              title="vimeo-player"
+              src="https://player.vimeo.com/video/336578815"
+              width="290px"
+              height="170px"
+              frameBorder="0"
+              allowFullScreen
+            >
+              {' '}
+            </iframe>
+          </li>
+          <li className="videoItem">
+            <iframe
+              title="vimeo-player"
+              src="https://player.vimeo.com/video/338274329"
+              width="290px"
+              height="170px"
+              frameBorder="0"
+              allowFullScreen
+            >
+              {' '}
+            </iframe>
+          </li>
+          <li className="videoItem">
+            <iframe
+              title="vimeo-player"
+              src="https://player.vimeo.com/video/321269527"
+              width="290px"
+              height="170px"
+              frameBorder="0"
+              allowFullScreen
+            >
+              {' '}
+            </iframe>
+          </li>
+          <li className="videoItem">
+            <iframe
+              title="vimeo-player"
+              src="https://player.vimeo.com/video/303005579"
+              width="290px"
+              height="170px"
+              frameBorder="0"
+              allowFullScreen
+            >
+              {' '}
+            </iframe>
+          </li>
+          <li className="videoItem">
+            <iframe
+              title="vimeo-player"
+              src="https://player.vimeo.com/video/297954415"
+              width="290px"
+              height="170px"
+              frameBorder="0"
+              allowFullScreen
+            >
+              {' '}
+            </iframe>
+          </li>
+          <li className="videoItem">
+            <iframe
+              title="vimeo-player"
+              src="https://player.vimeo.com/video/265529409"
+              width="290px"
+              height="170px"
+              frameBorder="0"
+              allowFullScreen
+            >
+              {' '}
+            </iframe>
+          </li>
+          <li className="videoItem">
+            <iframe
+              title="vimeo-player"
+              src="https://player.vimeo.com/video/376828353"
+              width="290px"
+              height="170px"
+              frameBorder="0"
+              allowFullScreen
+            >
+              {' '}
+            </iframe>
+          </li>
+          <li className="videoItem">
+            <iframe
+              title="vimeo-player"
+              src="https://player.vimeo.com/video/265396390"
+              width="290px"
+              height="170px"
+              frameBorder="0"
+              allowFullScreen
+            >
+              {' '}
+            </iframe>
+          </li>
+        </ul>
+      </section>
     </>
   );
 };

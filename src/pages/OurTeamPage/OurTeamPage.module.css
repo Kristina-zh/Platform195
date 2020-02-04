@@ -42,7 +42,7 @@
   font-family: 'Playfair Display', serif;
   font-size: 16px;
   padding-top: 40px;
-  color: white;
+  color: var(--color-white);
 }
 
 .overlay {
@@ -52,8 +52,8 @@
   transform: translate(-50%, -50%);
   z-index: 100;
   width: 80%;
-  height: 85%;
-  background: rgba(202, 160, 104);
+  height: 70%;
+  background-color: var(--bg-color-orange);
   opacity: 0;
   justify-content: center;
   align-items: center;
@@ -69,9 +69,9 @@
 .box {
   margin-top: 20px;
   height: 30px;
-  fill: black;
+  fill: var(--color-black);
 }
 
 .box:hover {
-  fill: white;
+  fill: var(--color-white);
 }

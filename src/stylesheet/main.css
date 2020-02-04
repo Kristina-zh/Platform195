@@ -104,6 +104,8 @@ button {
   display: flex;
   color: var(-color-white);
   position: relative;
+  z-index: 2;
+  color: var(--color-white);
 }
 
 .intro__div {
@@ -162,4 +164,26 @@ span {
   font-family: 'Libre Baskerville', serif;
   line-height: 1.14em;
   font-style: italic;
+}
+
+/* video */
+
+.videoSection {
+  margin: 50px 0 100px;
+}
+
+.videoList {
+  /* display: flex;
+  justify-content: center; */
+  margin: 0 auto;
+}
+
+.videoItem {
+  display: relative;
+  /* margin: 0; */
+  margin-bottom: 30px;
+}
+
+.videoItem:last-of-type {
+  margin-bottom: 50px;
 }

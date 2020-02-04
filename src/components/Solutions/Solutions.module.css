@@ -3,7 +3,7 @@
 }
 
 .whiteOverlay {
-  background: white;
+  background-color: var(--color-white);
   width: 90%;
   position: absolute;
   transform: translateX(-50%);
@@ -29,13 +29,13 @@
 }
 
 .whiteLink-active {
-  border-bottom: 3px solid #c99e67;
+  border-bottom: 3px solid var(--color-orange);
   color: #c99e67;
 }
 
 .whiteLink:hover {
-  border-bottom: 3px solid #c99e67;
-  color: #c99e67;
+  border-bottom: 3px solid var(--color-orange);
+  color: var(--color-orange);
   margin: 0;
 }
 

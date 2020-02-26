@@ -33,11 +33,11 @@
   color: #c99e67;
 }
 
-.whiteLink:hover {
+/* .whiteLink:hover {
   border-bottom: 3px solid var(--color-orange);
   color: var(--color-orange);
   margin: 0;
-}
+} */
 
 .whiteText {
   padding: 0 20px;
@@ -50,4 +50,10 @@
 .imgBg {
   width: 100%;
   object-fit: cover;
+}
+
+@media (min-width: 380px) {
+  .imgBg {
+    height: 700px;
+  }
 }

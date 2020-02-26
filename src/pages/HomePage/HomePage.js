@@ -32,16 +32,16 @@ const HomePage = () => {
               <img
                 src={image1}
                 alt=""
-                width="290px"
-                height="170px"
-                objectFit="cover"
+                width="380px"
+                height="220px"
+                className={s.videoCover}
               />
             </div>
             <iframe
               title="vimeo-player"
               src="https://player.vimeo.com/video/340362775"
-              width="290px"
-              height="170px"
+              width="380px"
+              height="220px"
               frameBorder="0"
               allowFullScreen
             >
@@ -50,13 +50,19 @@ const HomePage = () => {
           </li>
           <li className="videoItem">
             <div className={s.overlayImg}>
-              <img src={image2} alt="" width="290px" height="170px" />
+              <img
+                className={s.videoCover}
+                src={image2}
+                alt=""
+                width="380px"
+                height="220px"
+              />
             </div>
             <iframe
               title="vimeo-player"
               src="https://player.vimeo.com/video/265529409"
-              width="290px"
-              height="170px"
+              width="380px"
+              height="220px"
               frameBorder="0"
               allowFullScreen
             >

@@ -17,6 +17,10 @@
   margin-bottom: 50px;
 }
 
+.videoItem {
+  margin-bottom: 50px;
+}
+
 .overlayImg {
   position: absolute;
   opacity: 1;
@@ -31,6 +35,16 @@
   opacity: 0;
   transition: 300ms linear;
 }
+
+.videoCover {
+  object-fit: cover;
+}
+
+/* @media (min-width: 380px) {
+  .videoFrame {
+    width: 380px;
+  }
+} */
 
 /* solutions */
 .solutions {

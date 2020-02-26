@@ -1,6 +1,6 @@
 .footer {
   display: block;
-  height: calc(100vh - 77px);
+  height: 250px;
   background-color: var(--bg-color-black);
   align-items: center;
   width: 100%;
@@ -10,7 +10,7 @@
 .footerWrapper {
   position: absolute;
   margin: 0 auto;
-  margin-top: 50%;
+  margin-top: 40px;
   left: 50%;
   transform: translateX(-50%);
 }

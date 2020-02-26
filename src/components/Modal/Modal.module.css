@@ -27,6 +27,12 @@
   background-color: var(--bg-color-white);
 }
 
+@media (min-width: 380px) {
+  .dropdown {
+    height: 300px;
+  }
+}
+
 .list {
   flex-direction: column;
   padding: 0 5%;

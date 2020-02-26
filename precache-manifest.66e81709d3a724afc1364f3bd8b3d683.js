@@ -1,59 +1,59 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6442e801898f1b870a32b56b8674d01e",
+    "revision": "82f26d6bbd93ca72399c6e7600c8a8a2",
     "url": "/Platform195/index.html"
   },
   {
-    "revision": "66853974bb5c248c0bf9",
-    "url": "/Platform195/static/css/3.1ef12d59.chunk.css"
+    "revision": "bf775ee6aa289814c454",
+    "url": "/Platform195/static/css/3.7046cb92.chunk.css"
   },
   {
     "revision": "e519f327ff12b1d43024",
     "url": "/Platform195/static/css/4.f62597ba.chunk.css"
   },
   {
-    "revision": "619a852f7007a766c5e6",
+    "revision": "455bdb416deabee1fd54",
     "url": "/Platform195/static/css/5.83698b8c.chunk.css"
   },
   {
-    "revision": "b9e80db89e4af29baa62",
+    "revision": "efea1cb9aefd9b4bba4b",
     "url": "/Platform195/static/css/6.91ac7a6f.chunk.css"
   },
   {
-    "revision": "ed1f13b11e23974cbaee",
-    "url": "/Platform195/static/css/main.49c025fe.chunk.css"
+    "revision": "bdb180540af7af83acc5",
+    "url": "/Platform195/static/css/main.c1267d5b.chunk.css"
   },
   {
     "revision": "e8aa7e1878ee64683966",
     "url": "/Platform195/static/js/2.39ccca36.chunk.js"
   },
   {
-    "revision": "66853974bb5c248c0bf9",
-    "url": "/Platform195/static/js/3.f638caf1.chunk.js"
+    "revision": "bf775ee6aa289814c454",
+    "url": "/Platform195/static/js/3.828a1585.chunk.js"
   },
   {
     "revision": "e519f327ff12b1d43024",
     "url": "/Platform195/static/js/4.97e0080d.chunk.js"
   },
   {
-    "revision": "619a852f7007a766c5e6",
-    "url": "/Platform195/static/js/5.b8b3303b.chunk.js"
+    "revision": "455bdb416deabee1fd54",
+    "url": "/Platform195/static/js/5.c067284e.chunk.js"
   },
   {
-    "revision": "b9e80db89e4af29baa62",
-    "url": "/Platform195/static/js/6.e789b20f.chunk.js"
+    "revision": "efea1cb9aefd9b4bba4b",
+    "url": "/Platform195/static/js/6.fb825826.chunk.js"
   },
   {
     "revision": "a9fc0dd58505d6a9ad05",
     "url": "/Platform195/static/js/7.9206094b.chunk.js"
   },
   {
-    "revision": "ed1f13b11e23974cbaee",
+    "revision": "bdb180540af7af83acc5",
     "url": "/Platform195/static/js/main.c4007f99.chunk.js"
   },
   {
-    "revision": "159d8f000213a7405b26",
-    "url": "/Platform195/static/js/runtime-main.113926aa.js"
+    "revision": "19be4db731c779147510",
+    "url": "/Platform195/static/js/runtime-main.1259163c.js"
   },
   {
     "revision": "1535f8ac780c4ef2a6a5f45905cf1093",
